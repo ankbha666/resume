@@ -1,0 +1,23 @@
+{
+  "photoImageUrl" : "https://media.licdn.com/media/p/5/000/1e2/248/247a8a4.jpg",
+  "location": "San Francisco Bay Area",
+  "fullName" : "Alexander Matyushentsev",
+  "position" : "Senior Software Engineer",
+  "summary" : "Five years of experience in commercial software development for the Microsoft Windows platform and web-based environments. Extensive programming experience using ASP.NET, JavaScript, HTML and XML. Strong knowledge of WinForms, experience of using Infragistics Components. Solid background in Object-Oriented analysis and design. Good understanding of project management and software development life cycle. Microsoft certified professional developer.\n\nSpecialties:C#, SQL, JavaScript, .NET, ASP.NET WebForms, ASP.NET MVC, jQuery UI, WinForms, Test Driven Development, Object-oriented programming",
+  "career_history" : [{
+    "position" : "Senior Java Developer",
+    "company_name" : "EPAM Systems",
+    "period" : "September 2011 – Present",
+    "location": "San Francisco Bay Area"
+  }, {
+    "position" : "Senior .Net Developer",
+    "company_name" : "Paladyne Systems, Inc",
+    "period" : "February 2011 – November 2011 ",
+    "description": "Responsibilities: developed GUI using Silverlight 4.0 and ExtJS 3.3 framework; implemented web services using WCF; designed MS SQL database schema; reviewed developed code; configured MSBuild project;",
+    "projects": [{
+      "name": "Report Manager",
+      "description": "Web application which allows fund administrators to configure and maintain client portals providing access to information on investments to the funds' clients. Works as a single location for viewing all fund reports existing in Paladyne Suite.\n\nEnvironment:\nASP.NET WebForms, Silverlight 4.0, ExtJS 3.3, HTML, CSS, WCF ,MS SQL Server 2008, Visual Studio 2010, IIS7.0, Team Foundation Server 2010"
+    }]
+  }],
+  "skills": ["C#", "WCF", "Test Driven Development", "TFS", "ASP.NET", "Visual Studio", "ASP.NET MVC", "JavaScript", ".NET", "WinForms", "jQuery", "LINQ", "IIS", "ADO.NET", "XML", "CSS", "Microsoft SQL Server", "Requirements Analysis", "OOP", "Scrum", "Unit Testing", "Agile Methodologies", "SQL", "Software Development", "Web Applications", "Silverlight", "Databases", "NUnit", "VSS", "HTML", "Java", "Spring", "jQuery UI", "Python", "Django", "UML", "T-SQL", "MVC", "NHibernate", "Architecture", "Design Patterns", "WPF", "Linux", "Entity Framework", "Subversion", "REST", "Jetty"]
+}
