@@ -22,8 +22,15 @@ import java.util.Date
 import org.joda.time.DateTime
 
 fun main(args: Array<String>) {
-  val consumerKeyValue = "7541dqbk91i989"
-  val consumerSecretValue = "d0mTWCLJ7CrApNfn"
+  val consumerKeyValue: String;
+  val consumerSecretValue: String;
+  if (args.size < 2) {
+    println("Please specify linkedin app key and secret")
+    return
+  } else {
+    consumerKeyValue = args[0]
+    consumerSecretValue = args[1]
+  }
   val port = 8080
 
   val oauthService = LinkedInOAuthServiceFactory.getInstance()!!.createLinkedInOAuthService(
