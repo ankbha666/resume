@@ -31,15 +31,15 @@
   </div>
 
   <h3>Career History</h3>
-  <div ng-repeat="item in info.career_history">
+  <div ng-repeat="item in info.careerHistory">
     <div class="row">
       <div class="col-md-12">
         <h4>{{item.position}}</h4>
-        <p class="text-muted">{{item.company_name}} | {{item.period}}</p>
+        <p class="text-muted">{{item.company.name}} | {{item.period}}</p>
         <p ng-if="item.description">{{item.description}}</p>
       </div>
     </div>
-   <h5>Projects:</h5>
+   <h5 ng-if="item.projects">Projects:</h5>
     <div ng-if="item.projects" class="row" ng-repeat="project in item.projects">
       <div class="col-md-12">
         <h5>{{project.name}}</h5>
@@ -72,6 +72,7 @@
   ga('send', 'pageview');
 </script>
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
 <script src="scripts/controllers.js"></script>
 <script src="scripts/services.js"></script>
 </body>
