@@ -8,9 +8,9 @@ angular.module('services')
 
     this.info = function() {
       var defer = $q.defer();
-      load('scripts/linkedin.json', function(info) {
+      load('data/linkedin.json', function(info) {
         // load information which is not available in linked in.
-        load('scripts/extra_info.json', function(extraInfo) {
+        load('data/extra_info.json', function(extraInfo) {
           var nameToProject = _.object(_.map(info.projects, function(item) {
             return [item.name, item];
           }));

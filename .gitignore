@@ -1,3 +1,5 @@
 /*.iml
 .idea
 node_modules
+webapp/bower_components/
+webapp/data
