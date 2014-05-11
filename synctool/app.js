@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 var linkedIn = require('./linkedin');
+var builder = require('xmlbuilder');
 var _ = require('underscore');
 
 var session = {};
@@ -12,8 +13,32 @@ var servicesDefinitions = [{
   initialized: false
 }];
 
-function getServiceActionUrl(definition, action) {
-  return '/' + definition.name + '/' + action;
+function toXml(data, xml) {
+  var xml = xml || builder.create('data');
+  var isArray = _.isArray(data);
+  for (var name in data) {
+    var val = data[name];
+    var elemName = isArray ? 'item' : name;
+    if (_.isObject(val) || _.isArray(val)) {
+      toXml(val, xml.ele(elemName));
+    } else {
+      xml.ele(elemName,{}, val)
+    }
+  }
+  return xml;
+}
+
+function getServiceActionUrl(definition, action, params) {
+  params = params || {};
+  var url = '/' + definition.name + '/' + action;
+  var query = [];
+  for (var name in params) {
+    query.push(name + '=' + params[name]);
+  }
+  if (query.length > 0) {
+    url += '?' + query.join("&");
+  }
+  return url;
 }
 
 function getServiceSession(definition) {
@@ -32,8 +57,8 @@ _.each(servicesDefinitions, function(definition) {
     if (_.has(serviceSession, 'requestToken')) {
       service.verifyOAuthToken(serviceSession.requestToken, req.query.oauth_verifier, function(token) {
         serviceSession.token = token;
-        res.redirect(getServiceActionUrl(
-          definition, serviceSession.requestedActionName || definition.defaultActionName));
+        res.redirect(getServiceActionUrl(definition,
+            serviceSession.requestedActionName || definition.defaultActionName, serviceSession.requestedActionQuery));
       });
     } else {
       res.send('Request token not found!');
@@ -45,6 +70,7 @@ _.each(servicesDefinitions, function(definition) {
       var serviceSession = getServiceSession(definition);
       if (!_.has(serviceSession, 'token')) {
         serviceSession.requestedActionName = action.name;
+        serviceSession.requestedActionQuery = req.query;
         if (!definition.initialized) {
           service.init({
             verifyUrl: 'http://' + req.get('host') + '/' + definition.name + '/verify'
@@ -56,8 +82,17 @@ _.each(servicesDefinitions, function(definition) {
           res.redirect(redirectUrl);
         });
       } else {
+        serviceSession.requestedActionName = null;
+        serviceSession.requestedActionQuery = null;
         action.execute(serviceSession.token, function(result) {
-          res.send(result);
+          var format = req.query.format || 'xml';
+          if (format == 'xml') {
+            res.set('Content-Type', 'application/xml');
+            res.send(toXml(result).end({pretty: true}));
+          } else {
+            res.set('Content-Type', 'application/json');
+            res.send(JSON.stringify(result, undefined, 2));
+          }
         });
       }
     });
