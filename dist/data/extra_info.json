@@ -1,0 +1,21 @@
+{
+  "photoImageUrl": "https://media.licdn.com/media/p/5/000/1e2/248/247a8a4.jpg",
+  "projectMappings": [
+    {
+      "company" : "Paladyne Systems, Inc.",
+      "projects" : [ "Report Manager" ]
+    },
+    {
+      "company" : "AVIcode",
+      "projects" : [ "TyMetrix 360°" ]
+    },
+    {
+      "company" : "Brady PLC",
+      "projects" : [ "Web Sales Manager" ]
+    },
+    {
+      "company" : "LLC 'KomTelSvjaz'",
+      "projects" : [ "Internal geoinformation system.", "Network equipment monitoring system."]
+    }
+  ]
+}
