@@ -6,7 +6,8 @@ module.exports = function (grunt) {
   grunt.initConfig({
     app :{
       path: 'webapp',
-      dist: 'dist'
+      dist: 'dist',
+      domain: 'amatyushentsev.com'
     },
     copy: {
       dist: {
@@ -88,6 +89,10 @@ module.exports = function (grunt) {
       }
     }
   });
+  grunt.registerTask('cname', 'Generates CNAME files for github pages', function() {
+    var app = grunt.config.get('app');
+    grunt.file.write(app.dist + '/CNAME', app.domain);
+  });
   grunt.registerTask('build',[
     'clean:dist',
     'bowerInstall',
@@ -97,7 +102,8 @@ module.exports = function (grunt) {
     'uglify',
     'copy:dist',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'cname'
   ]);
   grunt.registerTask('default', ['build']);
 };
