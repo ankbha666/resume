@@ -72,6 +72,20 @@ module.exports = function (grunt) {
           '<%= app.path %>/index.html'
         ]
       }
+    },
+    buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      },
+      pages: {
+        options: {
+          remote: 'git@github.com:alexmt/resume.git',
+          branch: 'gh-pages'
+        }
+      }
     }
   });
   grunt.registerTask('build',[
