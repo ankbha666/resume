@@ -19,7 +19,9 @@ function toXml(data, xml) {
   for (var name in data) {
     var val = data[name];
     var elemName = isArray ? 'item' : name;
-    if (_.isObject(val) || _.isArray(val)) {
+    if (_.isArray(val)){
+      toXml(val, xml.ele(elemName, { array: 'true' }));
+    } else if (_.isObject(val)) {
       toXml(val, xml.ele(elemName));
     } else {
       xml.ele(elemName,{}, val)
