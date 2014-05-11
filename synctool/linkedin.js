@@ -62,23 +62,29 @@ module.exports = {
         });
         lin.makeRequest({ token: token }, { api: req }, function(err, res) {
           var data = JSON.parse(res.response.body);
+          var projects = _.map(data.projects.values, function(project) {
+            return {
+              name: project.name,
+              description: project.description
+            }
+          });
           callback({
             photoImageUrl: data.pictureUrl,
             fullName: data.formattedName,
             position: data.headline,
             summary: data.summary,
             careerHistory: _.map(data.positions.values, function(position){
-              return {
+              var item = {
                 position: position.title,
                 company: { name: position.company.name },
                 period: formatPeriod(position['startDate'], position['endDate'])
               };
-            }),
-            projects: _.map(data.projects.values, function(project) {
-              return {
-                name: project.name,
-                description: project.description
+              // Assign all projects to first position because linked in API does not provide real mapping
+              if (projects.length > 0) {
+                item.projects = projects;
+                projects = [];
               }
+              return item;
             }),
             skills: _.map(data.skills.values, function(item) {
               return item.skill.name
