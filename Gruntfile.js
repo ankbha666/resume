@@ -14,10 +14,26 @@ module.exports = function (grunt) {
           {
             expand: true,
             cwd: '<%= app.path %>',
-            src: './**/*',
+            src: [
+              '*.html',
+              'data/**/*',
+            ],
             dest: '<%= app.dist %>'
           }
         ]
+      }
+    },
+    useminPrepare: {
+      html: '<%= app.path %>/index.html',
+      options: {
+        dest: '<%= app.dist %>'
+      }
+    },
+    usemin: {
+      html: ['<%= app.dist %>/{,*/}*.html'],
+      css: ['<%= app.dist %>/styles/{,*/}*.css'],
+      options: {
+        assetsDirs: ['<%= app.dist %>']
       }
     },
     htmlmin: {
@@ -42,7 +58,10 @@ module.exports = function (grunt) {
       dist: {
         files: [
           {
-            src: [ '<%= app.dist %>' ]
+            src: [
+              '.tmp',
+              '<%= app.dist %>'
+            ]
           }
         ]
       }
@@ -58,8 +77,12 @@ module.exports = function (grunt) {
   grunt.registerTask('build',[
     'clean:dist',
     'bowerInstall',
+    'useminPrepare',
+    'concat',
+    'cssmin',
+    'uglify',
     'copy:dist',
-    'htmlmin'
+    'usemin'
   ]);
   grunt.registerTask('default', ['build']);
 };
