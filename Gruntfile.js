@@ -47,7 +47,7 @@ module.exports = function (grunt) {
         files: [
           {
             expand: true,
-            cwd: '<%= app.path %>',
+            cwd: '<%= app.dist %>',
             src: ['index.html'],
             dest: '<%= app.dist %>'
           }
