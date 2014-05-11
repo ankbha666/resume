@@ -96,7 +96,8 @@ module.exports = function (grunt) {
     'cssmin',
     'uglify',
     'copy:dist',
-    'usemin'
+    'usemin',
+    'htmlmin'
   ]);
   grunt.registerTask('default', ['build']);
 };
