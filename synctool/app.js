@@ -8,7 +8,8 @@ var session = {};
 var servicesDefinitions = [{
   name : 'linkedin',
   service: linkedIn.service,
-  defaultActionName: 'exportResume'
+  defaultActionName: 'exportResume',
+  initialized: false
 }];
 
 function getServiceActionUrl(definition, action) {
@@ -26,9 +27,6 @@ function getServiceSession(definition) {
 
 _.each(servicesDefinitions, function(definition) {
   var service = definition.service;
-  service.init({
-    verifyUrl: 'http://localhost:8080/' + definition.name + '/verify'
-  });
   app.get('/' + definition.name + '/verify', function(req, res) {
     var serviceSession = getServiceSession(definition);
     if (_.has(serviceSession, 'requestToken')) {
@@ -47,6 +45,12 @@ _.each(servicesDefinitions, function(definition) {
       var serviceSession = getServiceSession(definition);
       if (!_.has(serviceSession, 'token')) {
         serviceSession.requestedActionName = action.name;
+        if (!definition.initialized) {
+          service.init({
+            verifyUrl: 'http://' + req.get('host') + '/' + definition.name + '/verify'
+          });
+          definition.initialized = true;
+        }
         service.requestOAuthToken(function(redirectUrl, requestToken) {
           serviceSession.requestToken = requestToken;
           res.redirect(redirectUrl);
