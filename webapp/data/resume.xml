@@ -1,30 +1,34 @@
 <?xml version="1.0"?>
 <data>
-  <photoImageUrl>https://media.licdn.com/media/p/5/000/1e2/248/247a8a4.jpg</photoImageUrl>
+  <photoImageUrl>http://media.licdn.com/media/p/5/000/1e2/248/247a8a4.jpg</photoImageUrl>
   <fullName>Alexander Matyushentsev</fullName>
-  <position>Senior Java Developer at EPAM Systems</position>
+  <position>Web Developer</position>
   <summary>Five years of experience in commercial software development for the Microsoft Windows platform and web-based environments. Extensive programming experience using ASP.NET, JavaScript, HTML and XML. Strong knowledge of WinForms, experience of using Infragistics Components. Solid background in Object-Oriented analysis and design. Good understanding of project management and software development life cycle. Microsoft certified professional developer.</summary>
+  <email>amatyushentsev@gmail.com</email>
+  <web>http://amatyushentsev.com</web>
+  <location>Sunnyvale, CA</location>
   <careerHistory array="true">
     <item>
       <position>Senior Java Developer</position>
       <company>
         <name>EPAM Systems</name>
+        <logo>http://media.licdn.com/media/p/7/005/03f/1d0/301893f.png</logo>
       </company>
-      <period>October, 2011</period>
+      <period>October, 2011 - Present</period>
     </item>
     <item>
       <position>Senior .Net Developer</position>
       <company>
         <name>Paladyne Systems, Inc.</name>
+        <logo>http://media.licdn.com/media/p/2/000/0f2/175/18a6dd7.png</logo>
       </company>
       <period>March, 2011 - September, 2011</period>
       <projects array="true">
         <item>
           <name>Report Manager</name>
           <description>Web application which allows fund administrators to configure and maintain client portals providing access to information on investments to the funds&apos; clients. Works as a single location for viewing all fund reports existing in Paladyne Suite.
-            Environment:
-            ASP.NET WebForms, Silverlight 4.0, ExtJS 3.3, HTML, CSS, WCF ,MS SQL Server 2008, Visual Studio 2010, IIS7.0, Team Foundation Server 2010
           </description>
+          <environment>ASP.NET WebForms, Silverlight 4.0, ExtJS 3.3, HTML, CSS, WCF ,MS SQL Server 2008, Visual Studio 2010, IIS7.0, Team Foundation Server 2010</environment>
         </item>
       </projects>
     </item>
@@ -32,15 +36,14 @@
       <position>Senior .Net Developer</position>
       <company>
         <name>Brady PLC</name>
+        <logo>http://media.licdn.com/media/p/8/000/2a4/354/33ebaa7.png</logo>
       </company>
       <period>December, 2010 - March, 2011</period>
       <projects array="true">
         <item>
           <name>Web Sales Manager</name>
-          <description>Web application based on ASP.NET MVC framework. Web Sales Manager provides the option pricing functions for the European energy markets.
-            Environment:
-            ASP.NET MVC 2.0, C#, NHibernate 3.0, JavaScript, jQuery, jQuery UI, HTML, CSS, MS SQL Server 2008, Visual Studio 2008, LINQ, IIS, Team Foundation Server 2008
-          </description>
+          <description>Web application based on ASP.NET MVC framework. Web Sales Manager provides the option pricing functions for the European energy markets.</description>
+          <environment>ASP.NET MVC 2.0, C#, NHibernate 3.0, JavaScript, jQuery, jQuery UI, HTML, CSS, MS SQL Server 2008, Visual Studio 2008, LINQ, IIS, Team Foundation Server 2008</environment>
         </item>
       </projects>
     </item>
@@ -48,14 +51,14 @@
       <position>Senior .Net Developer</position>
       <company>
         <name>AVIcode</name>
+        <logo>http://media.licdn.com/media/p/2/000/01b/0b8/3498ace.png</logo>
       </company>
       <period>September, 2007 - March, 2011</period>
       <projects array="true">
         <item>
           <name>TyMetrix 360°</name>
-          <description>CT TyMetrix 360° is an integrated platform combining e-Billing, matter management, document management, financial reporting, budgeting and forecasting. Very large project including about two millions line of code.
-            Environment:
-            ASP.NET WebForms, C#, JavaScript, HTML, CSS, MS SQL Server 2008, Visual Studio 2008, XML, LINQ, IIS, Team Foundation Server 2008</description>
+          <description>CT TyMetrix 360° is an integrated platform combining e-Billing, matter management, document management, financial reporting, budgeting and forecasting. Very large project including about two millions line of code.</description>
+          <environment>ASP.NET WebForms, C#, JavaScript, HTML, CSS, MS SQL Server 2008, Visual Studio 2008, XML, LINQ, IIS, Team Foundation Server 2008</environment>
         </item>
       </projects>
     </item>
@@ -68,68 +71,53 @@
       <projects array="true">
         <item>
           <name>Internal geoinformation system.</name>
-          <description>Two-tier application which provides ability to view and edit geographic information, including streets, buildings.
-
-            Environment:
-            WinForms, C#, MS SQL Server 2005, Visual Studio 2005, Visual SourceSafe</description>
+          <description>Two-tier application which provides ability to view and edit geographic information, including streets, buildings.</description>
+          <environment>WinForms, C#, MS SQL Server 2005, Visual Studio 2005, Visual SourceSafe</environment>
         </item>
         <item>
           <name>Network equipment monitoring system.</name>
-          <description>Distributed system which is responsible for real-time monitoring of network devices.
-
-            Environment:
-            WinForms, C#, MS SQL Server 2005, Visual Studio 2005, Visual SourceSafe</description>
+          <description>Distributed system which is responsible for real-time monitoring of network devices.</description>
+          <environment>WinForms, C#, MS SQL Server 2005, Visual Studio 2005, Visual SourceSafe</environment>
         </item>
       </projects>
     </item>
   </careerHistory>
-  <skills array="true">
-    <item>Java</item>
-    <item>Spring</item>
-    <item>jQuery UI</item>
-    <item>C#</item>
-    <item>WCF</item>
-    <item>Test Driven Development</item>
-    <item>TFS</item>
-    <item>ASP.NET</item>
-    <item>Visual Studio</item>
-    <item>ASP.NET MVC</item>
-    <item>JavaScript</item>
-    <item>.NET</item>
-    <item>WinForms</item>
-    <item>jQuery</item>
-    <item>LINQ</item>
-    <item>IIS</item>
-    <item>ADO.NET</item>
-    <item>XML</item>
-    <item>CSS</item>
-    <item>Microsoft SQL Server</item>
-    <item>Requirements Analysis</item>
-    <item>OOP</item>
-    <item>Scrum</item>
-    <item>Unit Testing</item>
-    <item>Agile Methodologies</item>
-    <item>SQL</item>
-    <item>Software Development</item>
-    <item>Web Applications</item>
-    <item>Silverlight</item>
-    <item>Databases</item>
-    <item>NUnit</item>
-    <item>VSS</item>
-    <item>HTML</item>
-    <item>Python</item>
-    <item>Django</item>
-    <item>UML</item>
-    <item>T-SQL</item>
-    <item>MVC</item>
-    <item>NHibernate</item>
-    <item>Architecture</item>
-    <item>Design Patterns</item>
-    <item>WPF</item>
-    <item>Linux</item>
-    <item>Entity Framework</item>
-    <item>Subversion</item>
-    <item>REST</item>
-    <item>Jetty</item>
-  </skills>
+  <skillGroups array="true">
+    <item>
+      <name>Languages</name>
+      <skills array="true">
+        <item>Java</item>
+        <item>Javascript</item>
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>C#</item>
+      </skills>
+    </item>
+    <item>
+      <name>Tools</name>
+      <skills array="true">
+        <item>Gradle</item>
+        <item>Grunt</item>
+        <item>Node.JS</item>
+        <item>MS Build</item>
+      </skills>
+    </item>
+    <item>
+      <name>Frameworks</name>
+      <skills array="true">
+        <item>Spring</item>
+        <item>Guice</item>
+        <item>Jersey RESTful </item>
+        <item>ASP.NET</item>
+      </skills>
+    </item>
+    <item>
+      <name>Databases</name>
+      <skills array="true">
+        <item>MySQL</item>
+        <item>Microsoft SQL</item>
+        <item>CouchDb</item>
+      </skills>
+    </item>
+  </skillGroups>
 </data>
