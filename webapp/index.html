@@ -54,6 +54,7 @@
           <div class="col-md-3" ng-repeat="group in info.skillGroups">
             <h5>{{group.name}}</h5>
             <ul><li ng-repeat="item in group.skills">{{item}}</li></ul>
+            <p ng-if="group.other" class="small">{{group.other}}</p>
           </div>
         </section>
       </div>

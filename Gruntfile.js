@@ -17,6 +17,7 @@ module.exports = function (grunt) {
             cwd: '<%= app.path %>',
             src: [
               '*.html',
+              '*.ico',
               'data/**/*',
             ],
             dest: '<%= app.dist %>'

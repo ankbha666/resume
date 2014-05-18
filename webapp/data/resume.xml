@@ -87,37 +87,42 @@
       <name>Languages</name>
       <skills array="true">
         <item>Java</item>
+        <item>C#</item>
         <item>Javascript</item>
         <item>HTML</item>
         <item>CSS</item>
-        <item>C#</item>
       </skills>
-    </item>
-    <item>
-      <name>Tools</name>
-      <skills array="true">
-        <item>Gradle</item>
-        <item>Grunt</item>
-        <item>Node.JS</item>
-        <item>MS Build</item>
-      </skills>
+      <other>Kotlin, Groovy, C/C++ and Python</other>
     </item>
     <item>
       <name>Frameworks</name>
       <skills array="true">
-        <item>Spring</item>
-        <item>Guice</item>
-        <item>Jersey RESTful </item>
-        <item>ASP.NET</item>
+        <item>J2EE, Spring, Guice, Jersey RESTful</item>
+        <item>AngularJS, jQuery, jQueryUI, GWT</item>
+        <item>ASP.NET WebForms, MVC, WCF, NInject, Unity IoC</item>
+      </skills>
+      <other>
+
+      </other>
+    </item>
+    <item>
+      <name>Development Tools</name>
+      <skills array="true">
+        <item>Eclipse</item>
+        <item>IntelliJ IDEA</item>
+        <item>MS Visual Studio</item>
+        <item>Gradle</item>
+        <item>Maven</item>
+        <item>Grunt</item>
       </skills>
     </item>
     <item>
       <name>Databases</name>
       <skills array="true">
-        <item>MySQL</item>
         <item>Microsoft SQL</item>
-        <item>CouchDb</item>
+        <item>MySQL</item>
       </skills>
+      <other>a also worked with CouchDb, Oracle</other>
     </item>
   </skillGroups>
 </data>
