@@ -6,6 +6,7 @@
     "font-awesome": "~4.0.3",
     "components-font-awesome": "~4.0.3",
     "underscore": "~1.6.0",
-    "x2js": "*"
+    "x2js": "*",
+    "angular-route": "~1.2.16"
   }
 }

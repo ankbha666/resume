@@ -17,6 +17,7 @@ module.exports = function (grunt) {
             cwd: '<%= app.path %>',
             src: [
               '*.html',
+              'views/**/*',
               '*.ico',
               'data/**/*',
             ],
@@ -50,7 +51,7 @@ module.exports = function (grunt) {
           {
             expand: true,
             cwd: '<%= app.dist %>',
-            src: ['index.html'],
+            src: ['index.html', 'views/**/*'],
             dest: '<%= app.dist %>'
           }
         ]
