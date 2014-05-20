@@ -15,10 +15,14 @@
   <!-- build:css styles/main.css -->
   <link href="styles/main.css" rel="stylesheet">
   <!-- endbuild -->
+  <link rel="stylesheet" href="bower_components/github-activity/github-activity.min.css" />
 </head>
 <body class="paper">
-<div class="container" ng-view>
-</div>
+<div class="container" ng-view></div>
+<aside>
+  <a href="#">My Resume</a>
+  <a href="#/github">GitHub</a>
+</aside>
 
 <script>
   (function (i, s, o, g, r, a, m) {
@@ -45,7 +49,9 @@
 <script src="bower_components/underscore/underscore.js"></script>
 <script src="bower_components/x2js/xml2json.min.js"></script>
 <script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/github-activity/github-activity.js"></script>
 <!-- endbower -->
+<script src="bower_components/mustache/mustache.js"></script>
 <!-- endbuild -->
 
 <!-- build:js scripts/scripts.js -->

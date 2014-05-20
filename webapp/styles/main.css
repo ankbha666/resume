@@ -1,5 +1,12 @@
+/*layout*/
+
+html, body {
+  height: auto !important;
+}
+
+
 .container {
-  margin: 20px auto;
+  margin: 20px 150px;
   padding: 10px 0;
 }
 
@@ -7,16 +14,34 @@ section {
   margin-top: 10px;
 }
 
-h1, h2, h3, h4, h5 {
-  margin: 0;
+aside {
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 120px;
+  margin: 20px;
 }
 
+aside a {
+  width: 100%;
+  display: block;
+}
+
+#github-feed * {
+  box-sizing: content-box;
+}
+
+/*styles*/
 ul {
   padding-left: 15px;
 }
 
 .profilePhoto {
   width: 100px;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
 }
 
 @media only screen {

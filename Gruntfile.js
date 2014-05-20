@@ -20,8 +20,22 @@ module.exports = function (grunt) {
               'views/**/*',
               '*.ico',
               'data/**/*',
+              'bower_components/github-activity/github-activity.min.css'
             ],
             dest: '<%= app.dist %>'
+          }
+        ]
+      },
+      fonts: {
+        files: [
+          {
+            expand: true,
+            flatten: true,
+            cwd: '<%= app.path %>',
+            src: [
+              'bower_components/components-font-awesome/fonts/*'
+            ],
+            dest: '<%= app.dist %>/fonts'
           }
         ]
       }
@@ -105,6 +119,7 @@ module.exports = function (grunt) {
     'copy:dist',
     'usemin',
     'htmlmin',
+    'copy:fonts',
     'cname'
   ]);
   grunt.registerTask('default', ['build']);
