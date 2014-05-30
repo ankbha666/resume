@@ -4,6 +4,9 @@ html, body {
   height: auto !important;
 }
 
+.resume {
+  min-width: 400px;
+}
 
 .container {
   margin: 20px 150px;
