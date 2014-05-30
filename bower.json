@@ -8,6 +8,7 @@
     "underscore": "~1.6.0",
     "x2js": "*",
     "angular-route": "~1.2.16",
-    "github-activity": "git@github.com:caseyscarborough/github-activity.git"
+    "github-activity": "git@github.com:caseyscarborough/github-activity.git",
+    "mustache": "~0.8.1"
   }
 }
