@@ -3,7 +3,12 @@
   <section class="row">
     <div class="col-md-5">
       <h2>{{info.fullName}}</h2>
-      <h3 class="text-muted">{{info.position}}</h3>
+      <h3 class="text-muted">
+        {{info.position}}
+        <span class="small">
+          (<a target="_blank" href="{{info.pdfUrl}}">download as pdf</a>)
+        </span>
+      </h3>
     </div>
     <div class="col-md-3">
       <h5 class="text-muted">location: {{info.location}}</h5>
