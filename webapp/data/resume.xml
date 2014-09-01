@@ -16,20 +16,44 @@
   <location>Sunnyvale, CA</location>
   <careerHistory array="true">
     <item>
-      <position>Senior Java Developer</position>
+      <position>Contractor Senior Java Developer at Google</position>
       <company>
         <name>EPAM Systems</name>
         <logo>http://media.licdn.com/media/p/7/005/03f/1d0/301893f.png</logo>
       </company>
       <period>October, 2011 - Present</period>
-      <projects>
+      <projects array="true">
         <item>
-          <name>DoubleClick Data Platform</name>
+          <name>DoubleClick Data Platform API</name>
           <description>
-            The DoubleClick Data Platform (DDP) is DoubleClick’s centralized hub for the origination and sharing of 1st
-            party data and licensing of 3rd-party data.
+            A centralized hub for the origination and sharing of 1st
+            party data and licensing of 3rd­party data. DDP API is taking care of distribution of that
+            information across various Google advertising products
           </description>
-          <environment>Java, GWT and secret Google technologies</environment>
+          <environment>
+            Java, Google F1 database, Stubby RPC, protocol buffers, Guice, Google cloud
+          </environment>
+        </item>
+        <item>
+          <name>DoubleClick Data Platform UI</name>
+          <description>
+            An interactive Web application which allows data
+            providers to browse, create and manage data segments, sell segments with to advertisers and
+            manage these shares.
+          </description>
+          <environment>
+            Java, GWT, Servlets, Stubby RPC, protocol buffers, Gin
+          </environment>
+        </item>
+        <item>
+          <name>DCLK QPS</name>
+          <description>
+            A web service which allows to set up and enforce publisher apps load
+            management rules.
+          </description>
+          <environment>
+            Java, Spring, Jetty, JDBC, HSQLDB, MySql
+          </environment>
         </item>
       </projects>
     </item>
@@ -118,9 +142,6 @@
         <item>AngularJS, jQuery, jQueryUI, GWT</item>
         <item>ASP.NET WebForms, MVC, WCF, NInject, Unity IoC</item>
       </skills>
-      <other>
-
-      </other>
     </item>
     <item>
       <name>Development Tools</name>
