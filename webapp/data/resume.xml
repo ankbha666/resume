@@ -16,12 +16,28 @@
   <location>Sunnyvale, CA</location>
   <careerHistory array="true">
     <item>
+      <position>Senior Software Engineer</position>
+      <company>
+        <name>Ooyala</name>
+        <logo>https://media.licdn.com/media/p/3/000/09b/224/36d01c3.png</logo>
+      </company>
+      <period>October, 2014 - Present</period>
+      <projects array="true">
+        <item>
+          <name>Ooyala Backlot</name>
+          <description>
+            a modular, full-featured video solution used by some of the largest companies in the world.
+          </description>
+        </item>
+      </projects>
+    </item>
+    <item>
       <position>Contractor Senior Java Developer at Google</position>
       <company>
         <name>EPAM Systems</name>
         <logo>http://media.licdn.com/media/p/7/005/03f/1d0/301893f.png</logo>
       </company>
-      <period>October, 2011 - Present</period>
+      <period>October, 2011 - October, 2014</period>
       <projects array="true">
         <item>
           <name>DoubleClick Data Platform API</name>
