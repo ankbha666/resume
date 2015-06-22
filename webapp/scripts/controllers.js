@@ -6,7 +6,4 @@ angular.module('controllers')
       EngineerInfoService.info().then(function (info) {
         $scope.info = info;
       });
-    }])
-  .controller('GitHubCtrl', [function() {
-    GitHubActivity.feed({ username: "alexmt", selector: "#github-feed" });
-  }]);
+    }]);
