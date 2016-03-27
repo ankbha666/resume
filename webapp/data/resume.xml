@@ -18,10 +18,27 @@
     <item>
       <position>Senior Software Engineer</position>
       <company>
+        <name>FirstRain</name>
+      </company>
+      <period>October, 2015 - Present</period>
+      <projects array="true">
+        <item>
+          <name>FirstRain Orion</name>
+          <description>
+            an analytics platform that brings together external and internal unstructured data to coach
+            teams and professionals on key business developments that affect their go-to-market strategy,
+            business relationships, and investments.
+          </description>
+        </item>
+      </projects>
+    </item>
+    <item>
+      <position>Senior Software Engineer</position>
+      <company>
         <name>Ooyala</name>
         <logo>https://media.licdn.com/media/p/3/000/09b/224/36d01c3.png</logo>
       </company>
-      <period>October, 2014 - Present</period>
+      <period>October, 2014 - October, 2015</period>
       <projects array="true">
         <item>
           <name>Ooyala Backlot</name>
