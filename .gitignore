@@ -3,4 +3,5 @@
 node_modules
 webapp/bower_components/
 .tmp
-/dist
+/public
+resume.json
