@@ -107,19 +107,19 @@ education:
     startDate: '2002-09-01'
     endDate: '2007-08-01'
 publications: 
-  - name: Argoproj Blogs
+  - name: Argoproj Blogs (https://medium.com/@amatyushentsev)
     publisher: Medium
     website: https://medium.com/@amatyushentsev
     releaseDate: 2017 ~ Now
-  - name: GitOps and Kubernetes
+  - name: GitOps and Kubernetes (http://bit.ly/gitops-and-k8s)
     publisher: Manning
     website: https://www.manning.com/books/gitops-and-kubernetes
     releaseDate: '2019'
   - name: How Intuit Does Canary and Blue Green Deployments with a K8s Controller
-    publisher: Kubecon 2019, Europe
+    publisher: Kubecon 2019, Europe (http://bit.ly/alextalks-kubecon2019-eu)
     website: http://bit.ly/alextalks-kubecon2019-eu
     releaseDate: '2019'
-  - name: Everything You Need To Become a GitOps Ninja
+  - name: Everything You Need To Become a GitOps Ninja (http://bit.ly/alextalks-kubecon2019-us)
     publisher: Kubecon 2019, North America
     website: http://bit.ly/alextalks-kubecon2019-us
     releaseDate: '2019'
