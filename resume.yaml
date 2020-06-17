@@ -109,6 +109,10 @@ publications:
     publisher: Medium (https://medium.com/@amatyushentsev)
     website: https://medium.com/@amatyushentsev
     releaseDate: 2017 ~ Now
+  - name: GitOps - Taking Stock, Looking Ahead
+    publisher: Software Circus (https://bit.ly/alextalks-gitopspanel2020-us)
+    website: https://bit.ly/alextalks-gitopspanel2020-us
+    releaseDate: '2019'
   - name: GitOps and Kubernetes
     publisher: Manning (http://bit.ly/gitops-and-k8s)
     website: https://www.manning.com/books/gitops-and-kubernetes
