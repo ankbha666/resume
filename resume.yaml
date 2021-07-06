@@ -48,7 +48,7 @@ work:
     website: https://www.thoughtworks.com/
     startDate: '2017-07-10'
     endDate: '2017-12-17'
-    summary: DevOps Consultant : World's Largest Financial Services Company 
+    summary: DevOps Consultant - World's Largest Financial Services Company 
     highlights:
       - Infrastructure as Code practice on AWS using terraform using TDD with ServerSpec test suites.
       - Migrated Microservices to treadmill (Morgan Stanley Kubernetes distribution).
@@ -57,7 +57,7 @@ work:
     website: https://www.samsung.com/in/
     startDate: '2016-09-23'
     endDate: '2017-07-07'
-    summary: SRE: Managing High volume traffic application for Smart TV division
+    summary: SRE - Managing High volume traffic application for Smart TV division
     highlights:
       - Managed High traffic application hosted on AWS across five geographies using ansible and shell scripts for configuration management, created ansible playbooks, roles for Big data stack on AWS Hadoop clusters (Hive, Cassandra Clusters),kafka Zookeeper.
       - Setting up Jenkins jobs for Scala apps and integrated with Fisheye and Crucible for code reviews
