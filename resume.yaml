@@ -109,7 +109,7 @@ education:
     studyType: Bachelors
     startDate: '2006-07-15'
     endDate: '2010-07-25'
-certifications:
+publications:
   - name: Hashicorp Certified - Terraform Associate
     publisher: Hashicorp
     website: https://www.credly.com/badges/51e7b737-0876-497a-9c8f-7fa6f96223f0/public_url
