@@ -1,7 +1,7 @@
 basics:
   name: Ankit Bhalla
   label: DevOps Specialist
-  picture: https://s.gravatar.com/avatar/55d5745f8028fd3fd9515901aeb35aba?s=80
+  picture: https://s.gravatar.com/avatar/73933ba8d75d31ff10eefba6b2ea087b?s=80
   email: ankitbhalla01@gmail.com
   website: https://ankitbhalla.github.io
   summary: |
@@ -31,7 +31,7 @@ work:
       - Indroduced DB Versioning using Flyway for Oracle, MySQL database patches accross all environments 
       - Owned application forecasting and planning infrastructure requirements result in 99% application uptime using Hygieia Devops Metrics dashboard.
       - Developed Infrastructure as Code using Terraform with TDD approach
-      - Helped to evangelize GitOps at BT and drive its adoption. Onboarded very first team to Kubernetes deployed through Rancher RKE , Argo CD, Gitlab CI.
+      - Helped to evangelize GitOps at BT and drive its adoption. Onboarded very first team to Kubernetes deployed through Rancher RKE, Argo CD, Gitlab CI.
   - company: Nagarro
     position: Lead Technology
     website: https://www.nagarro.com/en
@@ -41,7 +41,7 @@ work:
     highlights:
       - Infra Provisioning using Cloudformation templates with Custom function Resources using AWS Lambda functions
       - Migration of SAP Hybris build Pipeline from Atlassian Bamboo to enterprise Gitlab CI, and deployments through Code Deploy with Autoscaling Lifecycle hooks for Deployments for Hybris
-      - Migration of Kubernetes Cluster to AWS managed EKS. cluster authentication using Okta as IDP provider for AD users and aws- iam authenticator. Backup of K8S objects, namespaces using Heptio Velero. Core DNS Stub domains, external DNS integrations with Ingress controllers and TLS certificates
+      - Migration of Kubernetes Cluster to AWS managed EKS. cluster authentication using Okta as IDP provider for AD users and aws- iam authenticator. Backup of K8S objects, namespaces using Heptio Velero, Core DNS Stub domains, external DNS integrations with Ingress controllers and TLS certificates
       - Gitlab CI pipeline and Helm charts for release management, deployment of microservices on Kubernetes cluster using Service Mesh Istio, Vault RDS integration through service catalog.
   - company: Thoughtworks
     position: Senior Consultant
@@ -59,7 +59,7 @@ work:
     endDate: '2017-07-07'
     summary: SRE - Managing High volume traffic application for Smart TV division
     highlights:
-      - Managed High traffic application hosted on AWS across five geographies using ansible and shell scripts for configuration management, created ansible playbooks, roles for Big data stack on AWS Hadoop clusters (Hive, Cassandra Clusters),kafka Zookeeper.
+      - Managed High traffic application hosted on AWS across five geographies using ansible and shell scripts for configuration management, created ansible playbooks, roles for Big data stack on AWS Hadoop EMR clusters Hive, Cassandra Clusters,kafka Zookeeper.
       - Setting up Jenkins jobs for Scala apps and integrated with Fisheye and Crucible for code reviews
   - company: Nagarro
     position: Associate Lead Technology
