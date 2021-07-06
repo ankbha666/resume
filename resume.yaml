@@ -1,159 +1,186 @@
 basics:
-  name: Alexander Matyushentsev
-  label: Principal Software Engineer
+  name: Ankit Bhalla
+  label: DevOps Specialist
   picture: https://s.gravatar.com/avatar/55d5745f8028fd3fd9515901aeb35aba?s=80
-  email: amatyushentsev@gmail.com
-  website: https://alexmt.github.io
+  email: ankitbhalla01@gmail.com
+  website: https://ankitbhalla.github.io
   summary: |
-    Polyglot software engineer with a strong backed and fronted experience.
-    Core contributor and maintainer of [http://argoproj.io/](http://argoproj.io/) projects.
+    DevOps Engineer with more than ten years of hands-on experience in architecting/ automating and optimizing mission-critical deployments over a large infrastructure. Led teams of 3-7 people across technology, business, and design departments.
   location:
-    countryCode: US
-    region: California
+    countryCode: IN
+    region: New Delhi
   profiles:
     - network: Twitter
       username: a_matyushentsev
       url: https://twitter.com/a_matyushentsev
     - network: GitHub
-      username: alexmt
+      username: ankbha01/ankbha666
       url: https://github.com/alexmt
     - network: LinkedIn
-      username: amatyushentsev
-      url: https://www.linkedin.com/in/amatyushentsev/
+      username: ankitbhalla
+      url: https://www.linkedin.com/in/ankit-bhalla-70528218
 work:
-  - company: Intuit
-    position: Principal Software Engineer
-    website: https://www.intuit.com/
-    startDate: '2018-01-01'
-    summary: Help building Intuit SaaS Platform using containers and Kubernetes on AWS.
+  - company: BT
+    position: Design Specialist
+    website: https://www.bt.com/
+    startDate: '2020-03-30'
+    summary: Help building CI Platform for Oracle Fusion, application migration on AWS and Kubernetes.
     highlights:
-      - Core engineer on Argo CD and Argo Rollout projects ([http://argoproj.io/](http://argoproj.io/)).
-      - Responsible for running Argo CD as a service for hundreds of developers at Intuit powering 1k+ deployments every day.
-      - Helped to evangelize GitOps at Intuit and drive its adoption. Onboarded very first team at Intuit to Argo CD.
-      - Contributed to Argo CD adoption outside of Intuit.
-  - company: Applatix (acquired by Intuit)
-    position: Member of Technical Staff
-    website: https://www.applatix.com/
-    startDate: '2016-08-01'
-    endDate: '2018-01-01'
-    summary: Argo - an Open Source Workflow Engine for Kubernetes ([http://argoproj.io/](http://argoproj.io/))
+      - Analyzed, revised, and finalized the specification for tools installation,build,and deployment automation for Oracle Fusion services powering 50+ deployments every day.
+      - Automated the deployment of 90+ onPrem servers using Jenkins Pipelines, Sonar, Nexus with the help of Python WLST.
+      - Indroduced DB Versioning using Flyway for Oracle, MySQL database patches accross all environments 
+      - Owned application forecasting and planning infrastructure requirements result in 99% application uptime using Hygieia Devops Metrics dashboard.
+      - Developed Infrastructure as Code using Terraform with TDD approach
+      - Helped to evangelize GitOps at BT and drive its adoption. Onboarded very first team to Kubernetes deployed through Rancher RKE , Argo CD, Gitlab CI.
+  - company: Nagarro
+    position: Lead Technology
+    website: https://www.nagarro.com/en
+    startDate: '2018-01-24'
+    endDate: '2020-03-27'
+    summary: Lead Engineer - Application lifecycle Management 
     highlights:
-      - Prototyped 'lightweight' workflow engine implementation which leaded to the current design of Argo workflow engine.
-      - Lead Argo v1/v2 UI development.
-      - Lead Applatix self-service Portal API/UI development.
-  - company: First Rain (acquired by Ignite Technologies)
-    position: Senior Software Engineer
-    website: https://www.applatix.com/
-    startDate: '2015-10-01'
-    endDate: '2016-08-01'
-    summary: Just-in-time analytics and sales and marketing intelligence
+      - Infra Provisioning using Cloudformation templates with Custom function Resources using AWS Lambda functions
+      - Migration of SAP Hybris build Pipeline from Atlassian Bamboo to enterprise Gitlab CI, and deployments through Code Deploy with Autoscaling Lifecycle hooks for Deployments for Hybris
+      - Migration of Kubernetes Cluster to AWS managed EKS. cluster authentication using Okta as IDP provider for AD users and aws- iam authenticator. Backup of K8S objects, namespaces using Heptio Velero. Core DNS Stub domains, external DNS integrations with Ingress controllers and TLS certificates
+      - Gitlab CI pipeline and Helm charts for release management, deployment of microservices on Kubernetes cluster using Service Mesh Istio, Vault RDS integration through service catalog.
+  - company: Thoughtworks
+    position: Senior Consultant
+    website: https://www.thoughtworks.com/
+    startDate: '2017-07-10'
+    endDate: '2017-12-17'
+    summary: DevOps Consultant : World's Largest Financial Services Company 
     highlights:
-      - Actively participated in FirstRain Orion API development.
-      - Contributed into company development guidelines
-      - Introduced Checkstyle and Findbugs usage for Java code static analysis
-  - company: Ooyala (aquired by Dalet)
-    position: Senior Software Engineer
-    website: https://www.dalet.com/ooyala-flex-media-platform
-    startDate: '2014-10-01'
-    endDate: '2015-10-01'
-    summary: Manage, curate, orchestrate, deliver and monetize your content
+      - Infrastructure as Code practice on AWS using terraform using TDD with ServerSpec test suites.
+      - Migrated Microservices to treadmill (Morgan Stanley Kubernetes distribution).
+  - company: Samsung R&D Institute, Delhi
+    position: Lead Engineer
+    website: https://www.samsung.com/in/
+    startDate: '2016-09-23'
+    endDate: '2017-07-07'
+    summary: SRE: Managing High volume traffic application for Smart TV division
     highlights:
-      - Analyzed business requirements and participated in implementation of next-gen content management system for Ooyala
-      - Worked on workflow management implementation using Groovy and Java
-      - Participated in REST API implementation using Ruby and Sinatra
-  - company: EPAM Systems
-    position: Senior Software Engineer
-    website: https://www.epam.com/
-    startDate: '2011-09-01'
-    endDate: '2014-10-01'
-    summary: Helped Google building DoubleClick Data Platform
+      - Managed High traffic application hosted on AWS across five geographies using ansible and shell scripts for configuration management, created ansible playbooks, roles for Big data stack on AWS Hadoop clusters (Hive, Cassandra Clusters),kafka Zookeeper.
+      - Setting up Jenkins jobs for Scala apps and integrated with Fisheye and Crucible for code reviews
+  - company: Nagarro
+    position: Associate Lead Technology
+    website: https://www.nagarro.com/en
+    startDate: '2015-10-25'
+    endDate: '2016-09-22'
+    summary: Migration - Migration of SAP Hybris Platform to AWS Cloud and CI 
     highlights:
-      - Contributed into DoubleClick Data Platform (DDP) API development. Worked on new API features implementation, starting from requirements analysis to production deployment.
-      - Participated in implementation of DDP UI for third party data providers. 
-      - Improved DDP build, continuous integration and release process.
-      - Implemented QPS throttling service for legacy DoubleClick UI which helped migration to DFP.
+      - Infra Provisioning using Cloudformation templates with Custom function Resources using AWS Lambda functions
+      - Migration of SAP Hybris build Pipeline from Atlassian Bamboo to enterprise Gitlab CI, and deployments through Code Deploy with Autoscaling Lifecycle hooks for Deployments for Hybris.
+      - Stream Application logs using Fluentd as side car with Ingestion Layer using AWS managed Kafka to splunk
 
-  - company: Paladyne Systems (aquired by Broadridge)
+  - company: hCentive acquired by Optum (a UnitedHealth Group company)
     position: Senior Software Engineer
     website: http://paladyne.com/
     startDate: '2010-10-01'
     endDate: '2011-02-01'
-    summary: Enhance and simplify portfolio management
+    summary: Build and Release Eningeer
     highlights:
-      - leaded Paladyne Report Manager development.
-      - researched and performed first steps of migration from Silverlight to JS/HTML5.
+      - Migration from SVN to GIT.
+      - Creating a fully Automated Build and Deployment Platform and coordinating code builds, promotions and orchestrated deployments.
+      - Managing Chef Cookbooks Recipes Roles, environments using version control, Berkshelf and developed test framework with kitchen for audit cookbooks InSpec compliance for developer’s wrapper cookbooks.
 
-  - company: AVICode
-    position: Senior Software Engineer
-    website: http://paladyne.com/
+  - company: ST Microelectronics
+    position: Software Engineer
+    website: https://www.st.com/
     startDate: '2007-08-01'
     endDate: '2011-02-01'
-    summary: SaaS-based ELM software solution for legal spend and matter management and claims defense
+    summary: Application Release to Production Team
     highlights:
-      - Actively participated in development of CT TyMetrix 360°.
-      - Designed, planned and led development of important CT TyMetrix 360° feature (AFA).
-      - Contributed into internal Ajax framework development.
-      - Worked on migrating application to ASP.NET MVC
-      - Helped developing unit testing standards and coding guidelines for the company.
+      - Managing Oracle Middleware Tuxedo Environment using IBM Tivoli workload scheduler.
+      - Application lifecycle Management.
+      - Helped developing teams onboarding new applications on self managed cloud infrastructure
+ - company: HCL Technologies Ltd
+    position: SR Analyst
+    website: https://www.hcl.com/
+    startDate: '2010-12-01'
+    endDate: '2012-09-30'
+    summary: Cloud Infrastructure Engineer
+    highlights:
+      - Managed Service Provider for Infra as a Service using CA Cloud 3tera Applogic hybrid cloud.
+      - Server patching of linux servers using BMC Automation suite bladelogic with help of shell and python scripts.      
 awards: []
 volunteer: []
 references: []
 education: 
-  - institution: Orenburg State University
-    area: Information Technology
-    studyType: Master
-    startDate: '2002-09-01'
-    endDate: '2007-08-01'
-publications: 
-  - name: Argoproj Blogs
-    publisher: Medium (https://medium.com/@amatyushentsev)
-    website: https://medium.com/@amatyushentsev
-    releaseDate: 2017 ~ Now
-  - name: GitOps - Taking Stock, Looking Ahead
-    publisher: Software Circus (https://bit.ly/alextalks-gitopspanel2020-us)
-    website: https://bit.ly/alextalks-gitopspanel2020-us
-    releaseDate: '2019'
-  - name: GitOps and Kubernetes
-    publisher: Manning (http://bit.ly/gitops-and-k8s)
-    website: https://www.manning.com/books/gitops-and-kubernetes
-    releaseDate: '2019'
-  - name: How Intuit Does Canary and Blue Green Deployments with a K8s Controller
-    publisher: Kubecon 2019, Europe (http://bit.ly/alextalks-kubecon2019-eu)
-    website: http://bit.ly/alextalks-kubecon2019-eu
-    releaseDate: '2019'
-  - name: Everything You Need To Become a GitOps Ninja
-    publisher: Kubecon 2019, North America (http://bit.ly/alextalks-kubecon2019-us)
-    website: http://bit.ly/alextalks-kubecon2019-us
-    releaseDate: '2019'
+  - institution: Government Engineering College, Ajmer Rajasthan
+    area: Computer Science Engineering
+    studyType: Bachelors
+    startDate: '2006-07-15'
+    endDate: '2010-07-25'
+certifications:
+  - name: Hashicorp Certified - Terraform Associate
+    publisher: Hashicorp
+    website: https://www.credly.com/badges/51e7b737-0876-497a-9c8f-7fa6f96223f0/public_url
+    issuedDate: Jun 2021 ~ Jun 2023
+  - name: AWS Certified DevOps Engineer - Professional
+    publisher: AWS
+    website: https://www.credly.com/badges/7d40c234-fa05-40b0-ae54-a36624cb1bcc/public_url
+    issuedDate: Apr 2021 ~ Apr 2024
+  - name: AWS Certified SysOps Administrator - Associate
+    publisher: AWS
+    website: https://www.credly.com/badges/4cc7d3ce-9f60-4982-9374-45b24fb09efd/public_url
+    issuedDate: March 2021 ~ Apr 2024
+  - name: Microsoft Certified: Azure Administrator Associate
+    publisher: Microsoft
+    website: https://www.credly.com/badges/b07ee295-88be-4773-8c59-b0641556a2d6/public_url
+    issuedDate: Apr 2021 ~ Apr 2023
 skills:
-  - name: Backend
+  - name: Continuous Integration
     level: Master
     keywords: 
-      - Golang
-      - Java
-      - .Net
-  - name: Frontend
+      - Jenkins
+      - Argo CD
+      - Gitlab CI
+      - Spinnaker
+      - Atlassian Bamboo
+      - FlyWay/Liquibase Database Versioning
+      - Jacoco/Fisheye
+      - Sonar
+  - name: Automation Tools
     level: Master
     keywords: 
-      - HTML
-      - CSS
-      - Javascript
-      - Typescript
-  - name: Database
+      - Terraform
+      - AWS CloudFormation
+      - Ansible
+      - ServerSpec
+  - name: Containers
     level: Master
     keywords: 
-      - MySQL
-      - MSSQL
-  - name: DevOps
-    level: Master
-    keywords: 
+      - Docker
       - Kubernetes
-      - AWS
-      - Containers
+      - Helm
+      - Kustomize
+  - name: Monitoring
+    level: Master
+    keywords: 
+      - Prometheus
+      - Thanos
+      - Grafana
+      - Dynatrace
+      - Slack   
+  - name: Platforms
+    level: Master
+    keywords: 
+      - Kafka
+      - MongoDB
+      - Elasticsearch
+      - MySQL
+      - Kibana
+      - SAP Hybris
+      - Oracle Fusion Suite   
+  - name: Scripting
+    level: Master
+    keywords: 
+      - Shell Scripting
+      - Python
 languages: 
   - language: English
-  - language: Russian
+  - language: Hindi
 interests: 
-  - name: Climbing
+  - name: Travelling
   - name: Opensource
-  - name: Running
+  - name: Reading
