@@ -113,19 +113,19 @@ publications:
   - name: Hashicorp Certified - Terraform Associate
     publisher: Hashicorp
     website: https://www.credly.com/badges/51e7b737-0876-497a-9c8f-7fa6f96223f0/public_url
-    issuedDate: Jun 2021 ~ Jun 2023
+    releaseDate: Jun 2021 ~ Jun 2023
   - name: AWS Certified DevOps Engineer - Professional
     publisher: AWS
     website: https://www.credly.com/badges/7d40c234-fa05-40b0-ae54-a36624cb1bcc/public_url
-    issuedDate: Apr 2021 ~ Apr 2024
+    releaseDate: Apr 2021 ~ Apr 2024
   - name: AWS Certified SysOps Administrator - Associate
     publisher: AWS
     website: https://www.credly.com/badges/4cc7d3ce-9f60-4982-9374-45b24fb09efd/public_url
-    issuedDate: March 2021 ~ Apr 2024
+    releaseDate: March 2021 ~ Apr 2024
   - name: Microsoft Certified - Azure Administrator Associate
     publisher: Microsoft
     website: https://www.credly.com/badges/b07ee295-88be-4773-8c59-b0641556a2d6/public_url
-    issuedDate: Apr 2021 ~ Apr 2023
+    releaseDate: Apr 2021 ~ Apr 2023
 skills:
   - name: Continuous Integration
     level: Master
@@ -135,16 +135,16 @@ skills:
       - Gitlab CI
       - Spinnaker
       - Atlassian Bamboo
-      - FlyWay/Liquibase Database Versioning
-      - Jacoco/Fisheye
+      - FlyWay Database CI Versioning
+      - Jacoco
       - Sonar
   - name: Automation Tools
     level: Master
     keywords: 
       - Terraform
-      - AWS CloudFormation
+      - CloudFormation
+      - CrossPlane
       - Ansible
-      - ServerSpec
   - name: Containers
     level: Master
     keywords: 
