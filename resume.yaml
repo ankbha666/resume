@@ -71,7 +71,6 @@ work:
       - Infra Provisioning using Cloudformation templates with Custom function Resources using AWS Lambda functions
       - Migration of SAP Hybris build Pipeline from Atlassian Bamboo to enterprise Gitlab CI, and deployments through Code Deploy with Autoscaling Lifecycle hooks for Deployments for Hybris.
       - Stream Application logs using Fluentd as side car with Ingestion Layer using AWS managed Kafka to splunk
-
   - company: hCentive acquired by Optum (a UnitedHealth Group company)
     position: Senior Software Engineer
     website: http://paladyne.com/
@@ -82,7 +81,6 @@ work:
       - Migration from SVN to GIT.
       - Creating a fully Automated Build and Deployment Platform and coordinating code builds, promotions and orchestrated deployments.
       - Managing Chef Cookbooks Recipes Roles, environments using version control, Berkshelf and developed test framework with kitchen for audit cookbooks InSpec compliance for developer’s wrapper cookbooks.
-
   - company: ST Microelectronics
     position: Software Engineer
     website: https://www.st.com/
@@ -93,7 +91,7 @@ work:
       - Managing Oracle Middleware Tuxedo Environment using IBM Tivoli workload scheduler.
       - Application lifecycle Management.
       - Helped developing teams onboarding new applications on self managed cloud infrastructure
- - company: HCL Technologies Ltd
+  - company: HCL Technologies Ltd
     position: SR Analyst
     website: https://www.hcl.com/
     startDate: '2010-12-01'
