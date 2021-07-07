@@ -104,7 +104,7 @@ awards: []
 volunteer: []
 references: []
 education: 
-  - institution: Government Engineering College, Ajmer Rajasthan
+  - institution: Government Engineering College, Ajmer
     area: Computer Science Engineering
     studyType: Bachelors
     startDate: '2006-07-15'
@@ -127,6 +127,11 @@ publications:
     website: https://www.credly.com/badges/b07ee295-88be-4773-8c59-b0641556a2d6/public_url
     releaseDate: '2021'
 skills:
+  - name: Cloud
+    level: Master
+    keywords:
+      - Amazon Web Services
+      - Microsoft Azure
   - name: Continuous Integration
     level: Master
     keywords: 
@@ -138,18 +143,20 @@ skills:
       - FlyWay Database CI
       - Jacoco
       - Sonar
+      - Packer
   - name: Automation Tools
     level: Master
     keywords: 
       - Terraform
       - CloudFormation
-      - CrossPlane
       - Ansible
   - name: Containers
     level: Master
     keywords: 
       - Docker
       - Kubernetes
+      - Rancher
+      - RKE
       - Helm
       - Kustomize
   - name: Monitoring
@@ -158,18 +165,22 @@ skills:
       - Prometheus
       - Thanos
       - Grafana
-      - Dynatrace
+      - ELK
       - Slack   
-  - name: Platforms
+  - name: Database
     level: Master
     keywords: 
-      - Kafka
-      - MongoDB
-      - Elasticsearch
       - MySQL
-      - Kibana
-      - SAP Hybris
-      - Oracle Fusion Suite   
+      - MongoDB
+      - Oracle
+  - name: Big Data
+    level: Master
+    keywords:
+      - Kafka
+      - Solr
+      - Redis
+      - Elasticsearch
+      - Hadoop
   - name: Scripting
     level: Master
     keywords: 
