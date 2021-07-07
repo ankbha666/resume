@@ -3,7 +3,7 @@ basics:
   label: DevOps Specialist
   picture: https://s.gravatar.com/avatar/73933ba8d75d31ff10eefba6b2ea087b?s=80
   email: ankitbhalla01@gmail.com
-  website: https://ankbha666.github.io
+  website: https://ankbha666.github.io/resume
   summary: |
     DevOps Engineer with more than ten years of hands-on experience in architecting/ automating and optimizing mission-critical deployments over a large infrastructure. Led teams of 3-7 people across technology, business, and design departments.
   location:
@@ -132,18 +132,14 @@ skills:
     keywords:
       - Amazon Web Services
       - Microsoft Azure
-  - name: Continuous Integration
+  - name: CI/CD
     level: Master
     keywords: 
       - Jenkins
       - Argo CD
       - Gitlab CI
       - Spinnaker
-      - Atlassian Bamboo
       - FlyWay Database CI
-      - Jacoco
-      - Sonar
-      - Packer
   - name: Automation Tools
     level: Master
     keywords: 
@@ -155,31 +151,31 @@ skills:
     keywords: 
       - Docker
       - Kubernetes
-      - Rancher
-      - RKE
+      - Rancher RKE
       - Helm
       - Kustomize
+      - Service Mesh
   - name: Monitoring
     level: Master
     keywords: 
       - Prometheus
       - Thanos
       - Grafana
-      - ELK
-      - Slack   
+  - name: Log Aggregation
+    level: Master
+    keywords:
+      - Fluentd
+      - Kafka
+      - Splunk/ELK
   - name: Database
     level: Master
     keywords: 
       - MySQL
       - MongoDB
-      - Oracle
   - name: Big Data
     level: Master
     keywords:
-      - Kafka
       - Solr
-      - Redis
-      - Elasticsearch
       - Hadoop
   - name: Scripting
     level: Master
