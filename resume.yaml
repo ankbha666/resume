@@ -47,7 +47,7 @@ work:
     position: Senior Consultant
     website: https://www.thoughtworks.com/
     startDate: '2017-07-10'
-    endDate: '2017-12-17'
+    endDate: '2017-12-15'
     summary: DevOps Consultant - World's Largest Financial Services Company 
     highlights:
       - Infrastructure as Code practice on AWS using terraform using TDD with ServerSpec test suites.
@@ -55,7 +55,7 @@ work:
   - company: Samsung R&D Institute, Delhi
     position: Lead Engineer
     website: https://www.samsung.com/in/
-    startDate: '2016-09-23'
+    startDate: '2016-09-22'
     endDate: '2017-07-07'
     summary: SRE - Managing High volume traffic application for Smart TV division
     highlights:
@@ -64,8 +64,8 @@ work:
   - company: Nagarro
     position: Associate Lead Technology
     website: https://www.nagarro.com/en
-    startDate: '2015-10-25'
-    endDate: '2016-09-22'
+    startDate: '2015-10-26'
+    endDate: '2016-09-21'
     summary: Migration - Migration of SAP Hybris Platform to AWS Cloud and CI 
     highlights:
       - Infra Provisioning using Cloudformation templates with Custom function Resources using AWS Lambda functions
@@ -74,8 +74,8 @@ work:
   - company: hCentive acquired by Optum (a UnitedHealth Group company)
     position: Senior Software Engineer
     website: http://optum.com/
-    startDate: '2010-10-01'
-    endDate: '2011-02-01'
+    startDate: '2014-07-07'
+    endDate: '2015-10-23'
     summary: Build and Release Eningeer
     highlights:
       - Migration from SVN to GIT.
@@ -84,8 +84,8 @@ work:
   - company: ST Microelectronics
     position: Software Engineer
     website: https://www.st.com/
-    startDate: '2007-08-01'
-    endDate: '2011-02-01'
+    startDate: '2012-10-01'
+    endDate: '2013-08-16'
     summary: Application Release to Production Team
     highlights:
       - Managing Oracle Middleware Tuxedo Environment using IBM Tivoli workload scheduler.
@@ -95,7 +95,7 @@ work:
     position: Sr Analyst
     website: https://www.hcl.com/
     startDate: '2010-12-01'
-    endDate: '2012-09-30'
+    endDate: '2012-09-28'
     summary: Cloud Infrastructure Engineer
     highlights:
       - Managed Service Provider for Infra as a Service using CA Cloud 3tera Applogic hybrid cloud.
