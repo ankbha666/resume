@@ -3,7 +3,7 @@ basics:
   label: DevOps Specialist
   picture: https://s.gravatar.com/avatar/73933ba8d75d31ff10eefba6b2ea087b?s=80
   email: ankitbhalla01@gmail.com
-  website: https://ankbha666.github.io/resume
+  website: https://ankbha666.github.io
   summary: |
     DevOps Engineer with more than ten years of hands-on experience in architecting/ automating and optimizing mission-critical deployments over a large infrastructure. Led teams of 3-7 people across technology, business, and design departments.
   location:
@@ -39,10 +39,11 @@ work:
     endDate: '2020-03-27'
     summary: Lead Engineer - Application lifecycle Management 
     highlights:
-      - Infra Provisioning using Cloudformation templates with Custom function Resources using AWS Lambda functions
-      - Migration of SAP Hybris build Pipeline from Atlassian Bamboo to enterprise Gitlab CI, and deployments through Code Deploy with Autoscaling Lifecycle hooks for Deployments for Hybris
-      - Migration of Kubernetes Cluster to AWS managed EKS. cluster authentication using Okta as IDP provider for AD users and aws- iam authenticator. Backup of K8S objects, namespaces using Heptio Velero, Core DNS Stub domains, external DNS integrations with Ingress controllers and TLS certificates
-      - Gitlab CI pipeline and Helm charts for release management, deployment of microservices on Kubernetes cluster using Service Mesh Istio, Vault RDS integration through service catalog.
+      - Infra Provisioning using terraform, ansible, and jenkins pipelines.
+      - Cluster authentication using Okta as IDP provider for AD users and aws- iam authenticator.
+      - Creating CI pipeline and Helm charts for release management, deployment of microservices on Kubernetes cluster using Service Mesh, integration with aws service catalog.
+      - Implement Git branching strategies for multiple microservices for release management.
+      - Monitoring using prometheus, thanos, and grafana.
   - company: Thoughtworks
     position: Senior Consultant
     website: https://www.thoughtworks.com/
@@ -59,8 +60,9 @@ work:
     endDate: '2017-07-07'
     summary: SRE - Managing High volume traffic application for Smart TV division
     highlights:
-      - Managed High traffic application hosted on AWS across five geographies using ansible and shell scripts for configuration management, created ansible playbooks, roles for Big data stack on AWS Hadoop EMR clusters Hive, Cassandra Clusters,kafka Zookeeper.
-      - Setting up Jenkins jobs for Scala apps and integrated with Fisheye and Crucible for code reviews
+      - Managed High traffic application hosted on AWS across five geographies.
+      - configuration management, created ansible playbooks.
+      - Setting up CI platform for Bigdata Scala apps and integrated those with Fisheye and Crucible for code reviews.
   - company: Nagarro
     position: Associate Lead Technology
     website: https://www.nagarro.com/en
@@ -69,8 +71,8 @@ work:
     summary: Migration - Migration of SAP Hybris Platform to AWS Cloud and CI 
     highlights:
       - Infra Provisioning using Cloudformation templates with Custom function Resources using AWS Lambda functions
-      - Migration of SAP Hybris build Pipeline from Atlassian Bamboo to enterprise Gitlab CI, and deployments through Code Deploy with Autoscaling Lifecycle hooks for Deployments for Hybris.
-      - Stream Application logs using Fluentd as side car with Ingestion Layer using AWS managed Kafka to splunk
+      - Migration of SAP Hybris build Pipeline from Atlassian Stack to OSS Platform Jenkins, Sonar, Nexus and deployments through AWS Code Deploy with Autoscaling Lifecycle hooks for Deployments for Hybris.
+      - Stream Application logs using Fluentd as side car with Ingestion Layer using syslog to splunk.
   - company: hCentive acquired by Optum (a UnitedHealth Group company)
     position: Senior Software Engineer
     website: http://optum.com/
@@ -78,7 +80,7 @@ work:
     endDate: '2015-10-23'
     summary: Build and Release Eningeer
     highlights:
-      - Migration from SVN to GIT.
+      - Migration of code repository from svn to hosted git.
       - Creating a fully Automated Build and Deployment Platform and coordinating code builds, promotions and orchestrated deployments.
       - Managing Chef Cookbooks Recipes Roles, environments using version control, Berkshelf and developed test framework with kitchen for audit cookbooks InSpec compliance for developer’s wrapper cookbooks.
   - company: ST Microelectronics
