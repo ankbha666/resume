@@ -73,7 +73,7 @@ work:
       - Stream Application logs using Fluentd as side car with Ingestion Layer using AWS managed Kafka to splunk
   - company: hCentive acquired by Optum (a UnitedHealth Group company)
     position: Senior Software Engineer
-    website: http://paladyne.com/
+    website: http://optum.com/
     startDate: '2010-10-01'
     endDate: '2011-02-01'
     summary: Build and Release Eningeer
@@ -92,7 +92,7 @@ work:
       - Application lifecycle Management.
       - Helped developing teams onboarding new applications on self managed cloud infrastructure
   - company: HCL Technologies Ltd
-    position: SR Analyst
+    position: Sr Analyst
     website: https://www.hcl.com/
     startDate: '2010-12-01'
     endDate: '2012-09-30'
@@ -135,7 +135,7 @@ skills:
       - Gitlab CI
       - Spinnaker
       - Atlassian Bamboo
-      - FlyWay Database CI Versioning
+      - FlyWay Database CI
       - Jacoco
       - Sonar
   - name: Automation Tools
