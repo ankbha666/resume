@@ -30,20 +30,26 @@ work:
       - Automated the deployment of 90+ onPrem servers using Jenkins Pipelines, Sonar, Nexus with the help of Python WLST.
       - Indroduced DB Versioning using Flyway for Oracle, MySQL database patches accross all environments 
       - Owned application forecasting and planning infrastructure requirements result in 99% application uptime using Hygieia Devops Metrics dashboard.
-      - Developed Infrastructure as Code using Terraform with TDD approach
-      - Helped to evangelize GitOps at BT and drive its adoption. Onboarded very first team to Kubernetes deployed through Rancher RKE, Argo CD, Gitlab CI.
-  - company: Nagarro
+      - Lead the implementation of secure cloud architecture best practices & Pioneered Infrastructure-As-Code wherever possible using TDD and Lean Practices
+      - Participated in the Lookout migration to AWS which allowed for our consumer product to have zero downtime and function within the cloud.
+      - Helped to evangelize GitOps at BT and drive its adoption.
+      - Architected, deployed and operated high traffic micro-services on multi region to ensure consistency, availability and reliability.
+      - Integrated Prometheus as an automated, unified monitoring platform and reduce MTTR using AIOps.
     position: Lead Technology
     website: https://www.nagarro.com/en
     startDate: '2018-01-24'
     endDate: '2020-03-27'
     summary: Lead Engineer - Application lifecycle Management 
     highlights:
-      - Infra Provisioning using terraform, ansible, and jenkins pipelines.
+      - Implement Git branching strategies for multiple microservices for release management. 
+      - SonarQube and Nightwatch to keep quality and velocity
+      - Lead the implementation of secure cloud architecture best practices & Pioneered Infrastructure-As-Code wherever possible
+      - Deployed from zero full AWS infrastructure utilizing EKS for development and production clusters. Secured the system in order to be compliant with GDPR and HIPAA. Utilized Gitlab CI and Helm Charts for continues delivery and releases. Supported HA RDS clusters with read-replicas for zero-downtime database access.
+      - Automated the entire incident process including alerting, documenting and recording of all incidents using Slack, Pagerduty, Jira and Dynatrace.
+      - Own the reliability of production systems across development and production environments in US, EU and APAC.
       - Cluster authentication using Okta as IDP provider for AD users and aws- iam authenticator.
-      - Creating CI pipeline and Helm charts for release management, deployment of microservices on Kubernetes cluster using Service Mesh, integration with aws service catalog.
-      - Implement Git branching strategies for multiple microservices for release management.
-      - Monitoring using prometheus, thanos, and grafana.
+      - Integrated Prometheus, Thanos, Grafana as an automated, unified monitoring platform and reduce MTTR.
+      - Deployed and responsible for Vault - an opensource tool for Secrets management. This has been integrated with our CI/CD pipeline along with being used by all services for secure transportation of secrets.
   - company: Thoughtworks
     position: Senior Consultant
     website: https://www.thoughtworks.com/
@@ -51,8 +57,9 @@ work:
     endDate: '2017-12-15'
     summary: DevOps Consultant - World's Largest Financial Services Company 
     highlights:
-      - Infrastructure as Code practice on AWS using terraform using TDD with ServerSpec test suites.
+      - Infrastructure as Code practice on AWS using terraform.
       - Migrated Microservices to treadmill (Morgan Stanley Kubernetes distribution).
+      - Actively involved and hands-on in writing infrastructure tools and services for internal teams in Python, and Bash
   - company: Samsung R&D Institute, Delhi
     position: Lead Engineer
     website: https://www.samsung.com/in/
@@ -60,8 +67,7 @@ work:
     endDate: '2017-07-07'
     summary: SRE - Managing High volume traffic application for Smart TV division
     highlights:
-      - Managed High traffic application hosted on AWS across five geographies.
-      - configuration management, created ansible playbooks.
+      - Managed High traffic application hosted on AWS across five geographies using configuration management tool ansible, created ansible playbooks.
       - Setting up CI platform for Bigdata Scala apps and integrated those with Fisheye and Crucible for code reviews.
   - company: Nagarro
     position: Associate Lead Technology
@@ -141,6 +147,7 @@ skills:
       - Argo CD
       - Gitlab CI
       - Spinnaker
+      - SonarQube
       - FlyWay Database CI
   - name: Automation Tools
     level: Master
