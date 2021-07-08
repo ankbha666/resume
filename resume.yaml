@@ -34,7 +34,8 @@ work:
       - Participated in the Lookout migration to AWS which allowed for our consumer product to have zero downtime and function within the cloud.
       - Helped to evangelize GitOps at BT and drive its adoption.
       - Architected, deployed and operated high traffic micro-services on multi region to ensure consistency, availability and reliability.
-      - Integrated Prometheus as an automated, unified monitoring platform and reduce MTTR using AIOps.
+      - Integrated Prometheus, as an automated, unified monitoring platform and reduce MTTR using AIOps.
+  - company: Nagarro    
     position: Lead Technology
     website: https://www.nagarro.com/en
     startDate: '2018-01-24'
@@ -48,8 +49,7 @@ work:
       - Automated the entire incident process including alerting, documenting and recording of all incidents using Slack, Pagerduty, Jira and Dynatrace.
       - Own the reliability of production systems across development and production environments in US, EU and APAC.
       - Cluster authentication using Okta as IDP provider for AD users and aws- iam authenticator.
-      - Integrated Prometheus, Thanos, Grafana as an automated, unified monitoring platform and reduce MTTR.
-      - Deployed and responsible for Vault - an opensource tool for Secrets management. This has been integrated with our CI/CD pipeline along with being used by all services for secure transportation of secrets.
+      - Responsible Secrets management using AWS secrets manager. This has been integrated with our CI/CD pipeline along with being used by all services for secure transportation of secrets.
   - company: Thoughtworks
     position: Senior Consultant
     website: https://www.thoughtworks.com/
@@ -69,6 +69,7 @@ work:
     highlights:
       - Managed High traffic application hosted on AWS across five geographies using configuration management tool ansible, created ansible playbooks.
       - Setting up CI platform for Bigdata Scala apps and integrated those with Fisheye and Crucible for code reviews.
+      - Secured all Lookout AWS accounts using a AWS lambda, CloudTrail and Config.
   - company: Nagarro
     position: Associate Lead Technology
     website: https://www.nagarro.com/en
@@ -170,6 +171,7 @@ skills:
       - Prometheus
       - Thanos
       - Grafana
+      - Dynatrace
   - name: Log Aggregation
     level: Master
     keywords:
