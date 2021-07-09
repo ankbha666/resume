@@ -49,8 +49,7 @@ work:
       - Deployed from zero full AWS infrastructure utilizing EKS for development and production clusters. Secured the system in order to be compliant with GDPR and HIPAA. Utilized Gitlab CI and Helm Charts for continues delivery and releases. Supported HA RDS clusters with read-replicas for zero-downtime database access.
       - Automated the entire incident process including alerting, documenting and recording of all incidents using Slack, Pagerduty, Jira and Dynatrace.
       - Own the reliability of production systems across development and production environments in US, EU and APAC.
-      - Cluster authentication using Okta as IDP provider for AD users and aws- iam authenticator.
-      - Responsible Secrets management using AWS secrets manager. This has been integrated with our CI/CD pipeline along with being used by all services for secure transportation of secrets.
+      - Responsible Secrets management using AWS secrets manager integrated with our CI/CD pipeline along with being used by all services for secure transportation of secrets and Okta as IDP provider.
   - company: Thoughtworks
     position: Senior Consultant
     website: https://www.thoughtworks.com/
