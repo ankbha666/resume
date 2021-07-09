@@ -103,7 +103,7 @@ work:
     highlights:
       - Managing Oracle Middleware Tuxedo Environment using IBM Tivoli workload scheduler.
       - Application lifecycle Management.
-      - Helped developing teams onboarding new applications on self managed cloud infrastructure
+      - Helped developing teams onboarding new applications on self managed cloud.
   - company: HCL Technologies Ltd
     position: Sr Analyst
     website: https://www.hcl.com/
@@ -111,8 +111,8 @@ work:
     endDate: '2012-09-28'
     summary: Cloud Infrastructure Engineer
     highlights:
-      - Managed Service Provider for Infra as a Service using CA Cloud 3tera Applogic hybrid cloud.
-      - Server patching of linux servers using BMC Automation suite bladelogic with help of shell and python scripts.      
+      - Managed Service Provider for Infra as a Service using CA 3tera Applogic hybrid cloud.
+      - Server patching of linux servers using BMC Automation suite bladelogic with help of shell,python scripts.      
 awards: []
 volunteer: []
 references: []
