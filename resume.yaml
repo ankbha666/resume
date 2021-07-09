@@ -5,7 +5,7 @@ basics:
   email: mail@ankitbhalla.com
   website: https://info.ankitbhalla.com
   summary: |
-    DevOps Engineer with more than ten years of hands-on experience in architecting/ automating and optimizing mission-critical deployments over a large infrastructure. Led teams of 3-7 people across technology, business, and design departments.
+    DevOps Engineer with more than ten years of hands-on experience in architecting/ automating and optimizing mission-critical deployments over a large infrastructure.Experienced in all phases of the software development life - cycle (SDLC) with specific focus on the build and release of quality software, Experienced in Waterfall, Agile/Scrum, Lean and Led teams of 3-7 people across technology,and design departments.
   location:
     countryCode: IN
     region: New Delhi
@@ -35,6 +35,7 @@ work:
       - Helped to evangelize GitOps at BT and drive its adoption.
       - Architected, deployed and operated high traffic micro-services on multi region to ensure consistency, availability and reliability.
       - Integrated Prometheus, as an automated, unified monitoring platform and reduce MTTR using AIOps.
+      - Operated the entire lifecycle and management of Harbor, our internal OCI registry. The registry was deployed via Helm to Kubernetes, Configured with Terraform and utilizing all features including centralized authentication, security scanning of all images using Clair
   - company: Nagarro    
     position: Lead Technology
     website: https://www.nagarro.com/en
@@ -59,6 +60,7 @@ work:
     highlights:
       - Infrastructure as Code practice on AWS using terraform.
       - Migrated Microservices to treadmill (Morgan Stanley Kubernetes distribution).
+      - Supporting development teams with microservices development.
       - Actively involved and hands-on in writing infrastructure tools and services for internal teams in Python, and Bash
   - company: Samsung R&D Institute, Delhi
     position: Lead Engineer
@@ -69,6 +71,7 @@ work:
     highlights:
       - Managed High traffic application hosted on AWS across five geographies using configuration management tool ansible, created ansible playbooks.
       - Setting up CI platform for Bigdata Scala apps and integrated those with Fisheye and Crucible for code reviews.
+      - Maintaining fleet of Big Data Platform Kafka, Zookeeper, Cassandra, Hapdoop Solr, Redis clusters both managed and hosted.
       - Secured all Lookout AWS accounts using a AWS lambda, CloudTrail and Config.
   - company: Nagarro
     position: Associate Lead Technology
@@ -80,6 +83,7 @@ work:
       - Infra Provisioning using Cloudformation templates with Custom function Resources using AWS Lambda functions
       - Migration of SAP Hybris build Pipeline from Atlassian Stack to OSS Platform Jenkins, Sonar, Nexus and deployments through AWS Code Deploy with Autoscaling Lifecycle hooks for Deployments for Hybris.
       - Stream Application logs using Fluentd as side car with Ingestion Layer using syslog to splunk.
+      - Setup Globally distributed CDN for static assets delivery
   - company: hCentive acquired by Optum (a UnitedHealth Group company)
     position: Senior Software Engineer
     website: http://optum.com/
@@ -148,8 +152,13 @@ skills:
       - Argo CD
       - Gitlab CI
       - Spinnaker
+      - Azure Devops
       - SonarQube
+      - Maven
+      - Nodejs
       - FlyWay Database CI
+      - Katalon Studio automation suite
+      - JMeter/Gatling
   - name: Automation Tools
     level: Master
     keywords: 
