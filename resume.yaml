@@ -5,7 +5,7 @@ basics:
   email: mail@ankitbhalla.com
   website: https://info.ankitbhalla.com
   summary: |
-    DevOps Engineer with more than ten years of hands-on experience in architecting/ automating and optimizing mission-critical deployments over a large infrastructure and having experience in all phases of the software development life - cycle (SDLC) with specific focus on the build and release of quality software Waterfall, Agile/Scrum, Lean practices.
+      Devops Engineer with Multi Cloud and Kubernetes certifications with more than ten years of hands-on experience in architecting/ automating and optimizing mission-critical deployments over a large infrastructure and having experience in all phases of the software development life - cycle (SDLC) with specific focus on the build and release of quality software Waterfall, Agile/Scrum, Lean practices.
   location:
     countryCode: IN
     region: New Delhi
@@ -122,6 +122,10 @@ education:
     startDate: '2006-07-15'
     endDate: '2010-07-25'
 publications:
+  - name: CKA Certified Kubernetes Administrator
+    publisher: The Linux Foundation
+    website: https://www.credly.com/badges/51cd56ab-9f96-4dd5-b967-d65c32e1b20d/public_url
+    releaseDate: 'August 2021'
   - name: Hashicorp Certified - Terraform Associate
     publisher: Hashicorp
     website: https://www.credly.com/badges/51e7b737-0876-497a-9c8f-7fa6f96223f0/public_url
