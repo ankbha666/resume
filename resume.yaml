@@ -81,7 +81,7 @@ work:
     highlights:
       - Infra Provisioning using Cloudformation templates with Custom function Resources using AWS Lambda functions
       - Migration of SAP Hybris build Pipeline from Atlassian Stack to OSS Platform Jenkins, Sonar, Nexus and deployments through AWS Code Deploy with Autoscaling Lifecycle hooks for Deployments for Hybris.
-      - Stream Application logs using Fluentd as side car with Ingestion Layer using syslog to splunk.
+      - Stream Application logs using Fluentd ingestion Layer syslog to splunk.
       - Setup Globally distributed CDN for static assets delivery
   - company: hCentive acquired by Optum (a UnitedHealth Group company)
     position: Senior Software Engineer
