@@ -70,7 +70,7 @@ work:
     highlights:
       - Managed High traffic application hosted on AWS across five geographies using configuration management tool ansible, created ansible playbooks.
       - Setting up CI platform for Bigdata Scala apps and integrated those with Fisheye and Crucible for code reviews.
-      - Maintaining fleet of Big Data Platform Kafka, Zookeeper, Cassandra, Hapdoop Solr, Redis clusters both managed and hosted.
+      - Maintaining fleet of Big Data Platform Kafka, Zookeeper, Cassandra, Hadoop, Solr, Redis.
       - Secured all Lookout AWS accounts using a AWS lambda, CloudTrail and Config.
   - company: Nagarro
     position: Associate Lead Technology
