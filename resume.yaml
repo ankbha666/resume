@@ -94,6 +94,12 @@ work:
       - Migration of code repository from svn to hosted git.
       - Creating a fully Automated Build and Deployment Platform and coordinating code builds, promotions and orchestrated deployments.
       - Managing Chef Cookbooks Recipes Roles, environments using version control, Berkshelf and developed test framework with kitchen for audit cookbooks InSpec compliance for developer’s wrapper cookbooks.
+  - company: LiveSpace Softwares Technologies Inc.
+    position: Co-founder
+    website: http://livespacetech.com/
+    startDate: '2013-09-01'
+    endDate: '2014-06-30'
+    summary: Consultation Agile DevOps  Best Practices      
   - company: ST Microelectronics
     position: Software Engineer
     website: https://www.st.com/
@@ -126,7 +132,7 @@ publications:
   - name: CKA Certified Kubernetes Administrator
     publisher: The Linux Foundation
     website: https://www.credly.com/badges/51cd56ab-9f96-4dd5-b967-d65c32e1b20d/public_url
-    releaseDate: 2021-09-11
+    releaseDate: 2021-08-11
   - name: Hashicorp Certified - Terraform Associate
     publisher: Hashicorp
     website: https://www.credly.com/badges/51e7b737-0876-497a-9c8f-7fa6f96223f0/public_url
