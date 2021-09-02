@@ -142,7 +142,7 @@ publications:
   - name: Microsoft Certified - Azure Administrator Associate
     publisher: Microsoft
     website: https://www.credly.com/badges/b07ee295-88be-4773-8c59-b0641556a2d6/public_url
-    releaseDate: 'April 14, 2021'
+    releaseDate: 2021-04-14
 skills:
   - name: Cloud
     level: Master
