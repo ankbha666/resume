@@ -126,19 +126,19 @@ publications:
   - name: CKA Certified Kubernetes Administrator
     publisher: The Linux Foundation
     website: https://www.credly.com/badges/51cd56ab-9f96-4dd5-b967-d65c32e1b20d/public_url
-    releaseDate: 'August 2021'
+    releaseDate: 2021-09-11
   - name: Hashicorp Certified - Terraform Associate
     publisher: Hashicorp
     website: https://www.credly.com/badges/51e7b737-0876-497a-9c8f-7fa6f96223f0/public_url
-    releaseDate: 'June 2021'
+    releaseDate: 2021-06-05
   - name: AWS Certified DevOps Engineer - Professional
     publisher: AWS
     website: https://www.credly.com/badges/7d40c234-fa05-40b0-ae54-a36624cb1bcc/public_url
-    releaseDate: 'April 2021'
+    releaseDate: 2021-04-03
   - name: AWS Certified SysOps Administrator - Associate
     publisher: AWS
     website: https://www.credly.com/badges/4cc7d3ce-9f60-4982-9374-45b24fb09efd/public_url
-    releaseDate: 'March 2021'
+    releaseDate: 2021-03-10
   - name: Microsoft Certified - Azure Administrator Associate
     publisher: Microsoft
     website: https://www.credly.com/badges/b07ee295-88be-4773-8c59-b0641556a2d6/public_url
