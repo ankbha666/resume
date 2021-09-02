@@ -18,7 +18,7 @@
   "dependencies": {
     "gh-pages": "^2.1.1",
     "js-yaml": "^3.13.1",
-    "jsonresume-theme-elegant": "^1.13.1",
+    "jsonresume-theme-elegant": "^1.16.1",
     "memcached-cli": "^1.0.3",
     "npm-watch": "^0.6.0",
     "resume-cli": "^1.2.7"
