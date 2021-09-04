@@ -129,10 +129,14 @@ education:
     startDate: '2006-07-15'
     endDate: '2010-07-25'
 publications:
+  - name: CKAD Certified Kubernetes Application Developer
+    publisher: The Linux Foundation
+    website: https://www.credly.com/badges/51cd56ab-9f96-4dd5-b967-d65c32e1b20d/public_url
+    releaseDate: 2021-09-04
   - name: CKA Certified Kubernetes Administrator
     publisher: The Linux Foundation
     website: https://www.credly.com/badges/51cd56ab-9f96-4dd5-b967-d65c32e1b20d/public_url
-    releaseDate: 2021-08-11
+    releaseDate: 2021-08-11  
   - name: Hashicorp Certified - Terraform Associate
     publisher: Hashicorp
     website: https://www.credly.com/badges/51e7b737-0876-497a-9c8f-7fa6f96223f0/public_url
