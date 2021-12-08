@@ -217,6 +217,7 @@ skills:
     keywords: 
       - Shell Scripting
       - Python
+      - go
 languages: 
   - language: English
   - language: Hindi
