@@ -35,7 +35,8 @@ work:
       - Participated in the Lookout migration to AWS which allowed for our consumer product to have zero downtime and function within the cloud.
       - Helped to evangelize GitOps at BT and drive its adoption.
       - Architected, deployed and operated high traffic micro-services on multi region to ensure consistency, availability and reliability.
-      - Integrated Prometheus, as an automated, unified monitoring platform and reduce MTTR using AIOps.
+      - Designed templatization Workflow pipelines using Argo stack (Events, Workflows), Kafka, Terraform, Helm, Vault, Hashicorp consul
+      - Integrated Prometheus, as an automated, unified monitoring platform and reduce MTTR.
       - Operated the entire lifecycle and management of Harbor, our internal OCI registry. The registry was deployed via Helm to Kubernetes, Configured with Terraform and utilizing all features including centralized authentication, security scanning of all images using Clair
   - company: Nagarro    
     position: Lead Technology
