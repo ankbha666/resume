@@ -27,17 +27,15 @@ work:
     startDate: '2020-03-30'
     summary: Help building CI Platform for Oracle Fusion, application migration on AWS and Kubernetes.
     highlights:
-      - Analyzed, revised, and finalized the specification for tools installation,build,and deployment automation for Oracle Fusion services powering 50+ deployments every day.
-      - Automated the deployment of 90+ onPrem servers using Jenkins Pipelines, Sonar, Nexus with the help of Python WLST.
-      - Indroduced DB Versioning using Flyway for Oracle, MySQL database patches accross all environments 
-      - Owned application forecasting and planning infrastructure requirements result in 99% application uptime using Hygieia Devops Metrics dashboard.
-      - Lead the implementation of secure cloud architecture best practices & Pioneered Infrastructure-As-Code wherever possible using TDD and Lean Practices
-      - Participated in the Lookout migration to AWS which allowed for our consumer product to have zero downtime and function within the cloud.
-      - Helped to evangelize GitOps at BT and drive its adoption.
-      - Architected, deployed and operated high traffic micro-services on multi region to ensure consistency, availability and reliability.
-      - Designed templatization Workflow pipelines using Argo stack (Events, Workflows), Kafka, Terraform, Helm, Vault, Hashicorp consul
-      - Integrated Prometheus, as an automated, unified monitoring platform and reduce MTTR.
-      - Operated the entire lifecycle and management of Harbor, our internal OCI registry. The registry was deployed via Helm to Kubernetes, Configured with Terraform and utilizing all features including centralized authentication, security scanning of all images using Clair
+      - Automated the build, deployment of on-Premise servers, build, and deployment automation for Oracle Fusion suite applications by creating Jenkins shared libraries and DSL for Pipelines, maven assembly plugin, HP UFT, SonarQube, Nexus, and Python WLST for powering 50+ deployments every day to keep quality and velocity.
+      - Integrated DB Versioning tool Flyway with Jenkins for Oracle, MySQL database patches across all environments
+      - Helped to evangelize the Git flow model across teams and drive its adoption.
+      - Lead the implementation of secure cloud architecture best practices & Pioneered Infrastructure-As-Code Terraform modules, Ansible roles wherever possible using TDD framework and Lean Practices
+      - Participated in the Lookout migration of Application workloads along with on-Prem Kubernetes Clusters provisioned using Rancher engine to managed Amazon EKS which allowed for our consumer product to have zero downtime and function within the cloud.
+      - Built deployment workflow for both front and backend micro-services to ensure consistency using Gitlab CI, (OCI Registry), Helm charts, and Argo Stack.
+      - Developed log streaming pipeline using ingestion layer Fluentd, Prometheus for Dynatrace, and ES cluster for observability.
+      - Designed templatization Workflow pipelines using Argo stack (Events, Workflows), Kafka.
+      - Owned application forecasting and planning infrastructure requirements using Kubecost, Hygieia DevOps Metrics dashboard.
   - company: Nagarro    
     position: Lead Technology
     website: https://www.nagarro.com/en
