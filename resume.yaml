@@ -36,6 +36,7 @@ work:
       - Developed log streaming pipeline using ingestion layer Fluentd, Prometheus for Dynatrace, and ES cluster for observability.
       - Designed templatization Workflow pipelines using Argo stack (Events, Workflows), Kafka.
       - Owned application forecasting and planning infrastructure requirements using Kubecost, Hygieia DevOps Metrics dashboard.
+      - Use of ServiceNow and JIRA Sprints for incident management, change control and task management.
   - company: Nagarro    
     position: Lead Technology
     website: https://www.nagarro.com/en
