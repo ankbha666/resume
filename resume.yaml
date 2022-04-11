@@ -162,14 +162,15 @@ skills:
     level: Master
     keywords: 
       - Jenkins
-      - Argo CD
+      - Argo Stack
       - Gitlab CI
-      - Spinnaker
+      - Atlassian Bamboo
+      - Secrets Engine
       - Azure Devops
       - SonarQube
       - Maven
       - Nodejs
-      - FlyWay Database CI
+      - FlyWay/DBDeploy
       - Katalon Studio automation suite
       - JMeter/Gatling
   - name: Automation Tools
@@ -192,25 +193,19 @@ skills:
     keywords: 
       - Prometheus
       - Thanos
-      - Grafana
       - Dynatrace
+      - Grafana/Kibana
   - name: Log Aggregation
     level: Master
     keywords:
       - Fluentd
       - Kafka
-      - Splunk/ELK
   - name: Database
     level: Master
     keywords: 
       - MySQL
-      - MongoDB
-      - Redis
-  - name: Big Data
-    level: Master
-    keywords:
-      - Solr
-      - Hadoop
+      - NoSQL
+      - Cache
   - name: Scripting
     level: Master
     keywords: 
