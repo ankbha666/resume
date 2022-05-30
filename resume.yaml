@@ -27,7 +27,7 @@ work:
     startDate: '2022-05-02'
     summary: Help building Devops SaaS Platform for onbarding Oracle Fusion applications on OCI Kubernetes.
     highlights:
-      - Designing the highly scalable platform using Kubernetes on oracle cloud infrastructure, as the primary control component, and Custom Resources, Operator Frameworks, along with open source tools such Linkerd Service Mesh mTLS, Traefik ingress, Argo Workflows, Prometheus, Thanos, Grafana and others.
+      - Designing the highly scalable platform using Kubernetes on oracle cloud infrastructure, as the primary control component, Custom Resources using go-client sdks, along with open source tools such Operaters frameworks, Linkerd Service Mesh mTLS, Traefik ingress, Argo Workflows, Prometheus, Thanos, Grafana and others.
       - Designing automation framework for serivce applications using shared libraries for Jenkins Pipelines, Gitlab CI, SonarQube, Artifactory for powering multiple deployments every day to keep quality and velocity
       - Experience with log shipping and data parsing/enrichment; centralize log management repository and search; data visualizations; alerting; log streaming pipeline.
       - Actively Participated in all phases of the software development lifecycle, from requirement analysis to system implementation.
@@ -37,7 +37,7 @@ work:
   - company: British Telecom
     position: Design Specialist
     website: https://www.bt.com/
-    startDate: '2020-03-30'
+    startDate: '2020-03-3'
     endDate: '2022-03-04'
     summary: Help building CI Platform for Oracle Fusion, application migration on AWS and Kubernetes.
     highlights:
