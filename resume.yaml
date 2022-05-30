@@ -6,7 +6,7 @@ basics:
   website: https://info.ankitbhalla.com
   phone: (91) 958-226-2929
   summary: |
-      Certified Devops Engineer having eleven years of hands-on experience in architecting/ automating and optimizing mission-critical deployments over a large infrastructure and having experience in all phases of the software development life - cycle (SDLC) with specific focus on the build and release of quality software Waterfall, Agile/Scrum, Lean practices.
+      Certified Devops Engineer having more than eleven years of hands-on experience in architecting/ automating and optimizing mission-critical deployments over a large infrastructure and having experience in all phases of the software development life - cycle (SDLC) with specific focus on the build and release of quality software Waterfall, Agile/Scrum, Lean practices.
   location:
     countryCode: IN
     region: New Delhi
@@ -21,16 +21,30 @@ basics:
       username: ankitbhalla
       url: https://www.linkedin.com/in/ankit-bhalla-70528218
 work:
+  - company: Oracle
+    position: Principal Member of Technical Staff
+    website: https://www.oracle.com/in/
+    startDate: '2022-05-02'
+    summary: Help building Devops SaaS Platform for onbarding Oracle Fusion applications on OCI Kubernetes.
+    highlights:
+      - Designing the highly scalable platform using Kubernetes on oracle cloud infrastructure, as the primary control component, and Custom Resources, Operator Frameworks, along with open source tools such Linkerd Service Mesh mTLS, Traefik ingress, Argo Workflows, Prometheus, Thanos, Grafana and others.
+      - Designing automation framework for serivce applications using shared libraries for Jenkins Pipelines, Gitlab CI, SonarQube, Artifactory for powering multiple deployments every day to keep quality and velocity
+      - Experience with log shipping and data parsing/enrichment; centralize log management repository and search; data visualizations; alerting; log streaming pipeline.
+      - Actively Participated in all phases of the software development lifecycle, from requirement analysis to system implementation.
+      - Implementation of Infrastructure-As-Code wherever possible using TDD framework.
+      - Working on cutting edge Devops frameworks to accelerate the delivery of microservices through a tightly governed release processes
+      - Co-ordinating with geographically-distributed product teams and key stakeholders.
   - company: British Telecom
     position: Design Specialist
     website: https://www.bt.com/
     startDate: '2020-03-30'
+    endDate: '2022-03-04'
     summary: Help building CI Platform for Oracle Fusion, application migration on AWS and Kubernetes.
     highlights:
       - Designed automation framework for Oracle Fusion suite applications using shared libraries for Jenkins Pipelines, Maven assembly plugin, HP UFT, SonarQube, Nexus, and Python WLST for powering multiple deployments every day to keep quality and velocity.
       - Integrated DB Versioning tool Flyway for Oracle, MySQL database patches across all environments
       - Helped to evangelize the Git flow model across teams and drive its adoption.
-      - Lead the implementation of Infrastructure-As-Code wherever possible using TDD framework and Lean Practices
+      - Lead the implementation of Infrastructure-As-Code (Terraform, helm charts, Ansible playbooks) wherever possible using TDD framework and Lean Practices
       - Participated in the Lookout migration of critical workloads hosted both on-Prem VM's, Oracle Linux Container Services(Kubernetes Clusters) to Amazon hybrid cloud services which allowed for our consumer product to have zero downtime and function within the cloud.
       - Built a user-friendly interface for microservices on-Boarding using GitOps pipelines that concealed the complexity of the underlying Kubernetes platform and allowed for baked-in best practices and enforcement of security policies.
       - Experience with log shipping and data parsing/enrichment; log streaming pipeline; centralize log management repository and search; data visualizations; alerting.
