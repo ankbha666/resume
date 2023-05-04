@@ -6,7 +6,7 @@ basics:
   website: https://info.ankitbhalla.com
   phone: (91) 958-226-2929
   summary: |
-      Certified Devops Engineer having more than twelve years of hands-on experience in architecting/ automating and optimizing mission-critical deployments over a large infrastructure and having experience in all phases of the software development life - cycle (SDLC) with specific focus on the build and release of quality software Waterfall, Agile/Scrum, Lean practices.
+      Certified Devops Engineer having twelve years of hands-on experience in architecting/ automating and optimizing mission-critical deployments over a large infrastructure and having experience in all phases of the software development life - cycle (SDLC) with specific focus on the build and release of quality software Waterfall, Agile/Scrum, Lean practices.
   location:
     countryCode: IN
     region: New Delhi
@@ -25,14 +25,17 @@ work:
     position: Principal Member of Technical Staff
     website: https://www.oracle.com/in/
     startDate: '2022-05-02'
-    summary: Help building Devops SaaS Platform for onbarding Oracle Fusion applications on OCI Kubernetes.
+    summary: Help building IDP SaaS Platform for onbarding fusion applications, microserives over OCI and Kubernetes.
     highlights:
-      - Designing the highly scalable platform using Kubernetes on oracle cloud infrastructure, as the primary control component, Custom Resources using go-client sdks, along with open source tools such as Operaters frameworks, Linkerd Service Mesh mTLS, Traefik ingress, Calico CNI, Argo Workflows, Prometheus, Thanos, Vault, Gatekeeper, Grafana and others.
-      - Working on cutting edge Devops frameworks to accelerate the delivery of microservices through a tightly governed release processes using Jenkins Pipelines, Gitlab CI, SonarQube, Artifactory for powering multiple deployments every day to keep quality and velocity
-      - Experience with log shipping and data parsing/enrichment; centralize log management repository and search; data visualizations; alerting; log streaming pipeline.
-      - Actively Participated in all phases of the software development lifecycle, from requirement analysis to system implementation.
-      - Implementation of Infrastructure-As-Code wherever possible using TDD framework.
-      - Co-ordinating with geographically-distributed product teams and key stakeholders.
+      - Installing IDP to build layers from the bottom up, starting with IaaS and ending with “Day 2” configurations that we perform on an installed and running platform deployment.
+      - Building platform using Terraform and oracle build service by automation pipelines to automate the installation of internal platform components or services on to Oracle cloud infrastructure and Kubernetes.
+      - Designing the highly scalable platform using Kubernetes on oracle cloud infrastructure, as the primary control component along with custom resources, openapi specifications using sdks, along with cncf graduated tools such as helm charts, cert-manager, linkerd service mesh for mTLS, ingress, argocd ecosystem.
+      - Automated deployments, upgrades and backups of the (ossp) platform using gitlab CI pipelines, sonar, and integrated it with internal secrets vault.
+      - Providing support for Dev teams to troubleshoot failed applications and services in IDP environments.
+      - Created and maintaining virtual machines, including buildpack upgrades using Bash, Python SDK's CLI, Platform CLI.
+      - Installed to forward data and to monitor the platform and application performance using tools prometheus and internal apm tools.
+      - Assisting with system security and vulnerability analyses and risk assessments.
+
   - company: British Telecom
     position: Design Specialist
     website: https://www.bt.com/
@@ -171,33 +174,30 @@ skills:
     keywords:
       - Amazon Web Services
       - Microsoft Azure
+      - OCI
   - name: CI/CD
     level: Master
     keywords: 
       - Jenkins
-      - Argo Stack
       - Gitlab CI
-      - Atlassian Bamboo
-      - Secrets Engine
       - Azure Devops
       - SonarQube
-      - Maven
-      - Nodejs
-      - FlyWay/DBDeploy
-      - Katalon Studio automation suite
-      - JMeter/Gatling
-  - name: Automation Tools
+      - Argo Workflows
+      - ArgoCD
+  - name: Internal Developer Platform
     level: Master
     keywords: 
       - Terraform
+      - CrossPlane
+      - Backstage
+      - Kubevela
       - CloudFormation
       - Ansible
   - name: Containers
     level: Master
     keywords: 
       - Docker
-      - Kubernetes
-      - Rancher RKE
+      - Kubernetes (EKS, OKE, Rancher)
       - Helm
       - Kustomize
       - Service Mesh
@@ -213,12 +213,6 @@ skills:
     keywords:
       - Fluentd
       - Kafka
-  - name: Database
-    level: Master
-    keywords: 
-      - MySQL
-      - NoSQL
-      - Cache
   - name: Scripting
     level: Master
     keywords: 
