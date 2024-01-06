@@ -108,18 +108,12 @@ work:
     highlights:
       - Migration of code repository from svn to hosted git.
       - Creating a fully Automated Build and Deployment Platform and coordinating code builds, promotions and orchestrated deployments.
-      - Managing Chef Cookbooks Recipes Roles, environments using version control, Berkshelf and developed test framework with kitchen for audit cookbooks InSpec compliance for developer’s wrapper cookbooks.
-  - company: LiveSpace Softwares Technologies Inc.
-    position: Co-founder
-    website: http://livespacetech.com/
-    startDate: '2013-09-01'
-    endDate: '2014-06-30'
-    summary: Consultation Agile DevOps  Best Practices      
+      - Managing Chef Cookbooks Recipes Roles, environments using version control, Berkshelf and developed test framework with kitchen for audit cookbooks InSpec compliance for developer’s wrapper cookbooks.  
   - company: ST Microelectronics
     position: Software Engineer
     website: https://www.st.com/
     startDate: '2012-10-01'
-    endDate: '2013-08-16'
+    endDate: '2014-06-30'
     summary: Application Release to Production Team
     highlights:
       - Managing Oracle Middleware Tuxedo Environment using IBM Tivoli workload scheduler.
