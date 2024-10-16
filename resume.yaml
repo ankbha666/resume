@@ -173,7 +173,7 @@ skills:
     level: Master
     keywords: 
       - Jenkins
-      - Gitlab CI
+      - Github Actions
       - Azure Devops
       - SonarQube
       - Temporal Workflows
