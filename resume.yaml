@@ -6,7 +6,7 @@ basics:
   website: https://info.ankitbhalla.com
   phone: (91) 958-226-2929
   summary: |
-      Certified Devops Engineer having around fourteen years of hands-on experience in architecting/ automating and optimizing mission-critical deployments over a large infrastructure and having experience in all phases of the software development life - cycle (SDLC) with specific focus on the build and release of quality software Waterfall, Agile/Scrum, Lean practices.
+      Certified Devops Engineer having fourteen years of hands-on experience in architecting/ automating and optimizing mission-critical deployments over a large infrastructure and having experience in all phases of the software development life - cycle (SDLC) with specific focus on the build and release of quality software Waterfall, Agile/Scrum, Lean practices.
   location:
     countryCode: IN
     region: New Delhi
@@ -25,16 +25,16 @@ work:
     position: Principal Member of Technical Staff
     website: https://www.oracle.com/in/
     startDate: '2022-05-02'
-    endDate: '2024-03-20'
+    endDate: '2024-09-20'
     summary: Help building cloud native platform for onboarding oracle fusion applications over Oracle cloud infrastructure and kubernetes.
     highlights:
       - Designing the highly scalable self service opinionated platform on oracle cloud infrastructure, as the primary control plane component using openapi schema specifications for custom resources with other cncf graduated tools.
       - Building internal platform infrastructure componenets using Temporal Workflows using Go-lang SDK+Terraform modules as management plane on oracle cloud infrastructure as custom controllers creating multiple interconnected resources such as VCNs, Private Endpoints,OKE clusters, Multi Nodegroup support Load Balancers and other data plane components with child resources and workflows.
       - Setup routing plane components artifacts kustomize, helm charts for ingress, load balancers, linkerd service mesh mTls, cert-manager, calico for network policies other data plane components opa engine, gatekeeper for guard rails on oracle kubernetes engine.
-      - Setup observability pipelines on data plane with open telemetry collector using prometheus, loki, tempo, Grafana for log, metrics and tracing.
+      - Setup observability pipelines on data plane with open telemetry collector using prometheus, loki, tempo, minir, thanos, Grafana for log, metrics and tracing.
       - Part of geophrically distributed team using scrum framework to build and deploy platform components for monthly cadence releases with code-reviews and automated testing frameworks on YAML schema reference for OCI Pipelines
       - Providing on-call support for multiple dev teams to onbaord and troubleshooting failed applications and services.
-      - Maintaining playbooks and documentation, housekeeping of platform components kubernetes upgrades, node, certificate rotations using bash scripting, python and go sdks.
+      - Maintaining playbooks and documentation, housekeeping of platform components kubernetes ami, versions, nodes, certificates rotations using bash shell scripting, python and go sdks.
 
   - company: British Telecom
     position: Design Specialist
