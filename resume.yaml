@@ -28,7 +28,7 @@ work:
     endDate: '2024-09-20'
     summary: Help building cloud native platform for onboarding oracle fusion applications over Oracle cloud infrastructure and kubernetes.
     highlights:
-      - Designing the highly scalable self service opinionated platform on oracle cloud infrastructure, as the primary control plane component using openapi schema specifications for custom resources with other cncf graduated tools.
+      - Designing the highly scalable self service opinionated multi-tenant platform on oracle cloud infrastructure, as the primary control plane component using openapi schema specifications for custom resources with other cncf graduated tools.
       - Building internal platform infrastructure componenets using Temporal Workflows using Go-lang SDK+Terraform modules as management plane on oracle cloud infrastructure as custom controllers creating multiple interconnected resources such as VCNs, Private Endpoints,OKE clusters, Multi Nodegroup support Load Balancers and other data plane components with child resources and workflows.
       - Setup routing plane components artifacts kustomize, helm charts for ingress, load balancers, linkerd service mesh mTls, cert-manager, calico for network policies other data plane components opa engine, gatekeeper for guard rails on oracle kubernetes engine.
       - Setup observability pipelines on data plane with open telemetry collector using prometheus, loki, tempo, minir, thanos, Grafana for log, metrics and tracing.
@@ -167,31 +167,30 @@ skills:
     level: Master
     keywords:
       - Amazon Web Services
+      - Oracle Cloud Infrastructure
       - Microsoft Azure
-      - OCI
-  - name: CI/CD
+  - name: Continous Integration
     level: Master
     keywords: 
       - Jenkins
       - Gitlab CI
       - Azure Devops
       - SonarQube
-      - Argo Workflows
+      - Temporal Workflows
       - ArgoCD
-  - name: Internal Developer Platform
+  - name: Automation
     level: Master
     keywords: 
       - Terraform
       - CrossPlane
-      - Backstage
-      - Kubevela
       - CloudFormation
       - Ansible
-  - name: Containers
+      - Backstage
+  - name: Orchestration
     level: Master
-    keywords: 
+    keywords:
+      - Kubernetes
       - Docker
-      - Kubernetes (EKS, OKE, Rancher)
       - Helm
       - Kustomize
       - Service Mesh
@@ -201,18 +200,20 @@ skills:
       - Prometheus
       - Thanos
       - Dynatrace
-      - Grafana/Kibana
+      - Grafana
   - name: Log Aggregation
     level: Master
     keywords:
       - Fluentd
       - Kafka
+      - Elasticsearch
+      - Open Telemetry
   - name: Scripting
     level: Master
     keywords: 
       - Shell Scripting
       - Python
-      - go
+      - Go
 languages: 
   - language: English
   - language: Hindi
