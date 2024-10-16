@@ -30,7 +30,7 @@ work:
     highlights:
       - Designing the highly scalable self service opinionated platform on oracle cloud infrastructure, as the primary control plane component using openapi schema specifications for custom resources with other cncf graduated tools.
       - Building internal platform infrastructure componenets using Temporal Workflows using Go-lang SDK+Terraform modules as management plane on oracle cloud infrastructure as custom controllers creating multiple interconnected resources such as VCNs, Private Endpoints,OKE clusters, Multi Nodegroup support Load Balancers and other data plane components with child resources and workflows.
-      - Setup routing plane components for ingress, load balancers, linkerd service mesh mTls, cert-manager, calico for network policies other data plane components opa engine, gatekeeper for guard rails on oracle kubernetes engine.
+      - Setup routing plane components artifacts kustomize, helm charts for ingress, load balancers, linkerd service mesh mTls, cert-manager, calico for network policies other data plane components opa engine, gatekeeper for guard rails on oracle kubernetes engine.
       - Setup observability pipelines on data plane with open telemetry collector using prometheus, loki, tempo, Grafana for log, metrics and tracing.
       - Part of geophrically distributed team using scrum framework to build and deploy platform components for monthly cadence releases with code-reviews and automated testing frameworks on YAML schema reference for OCI Pipelines
       - Providing on-call support for multiple dev teams to onbaord and troubleshooting failed applications and services.
