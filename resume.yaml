@@ -25,16 +25,16 @@ work:
     position: Principal Member of Technical Staff
     website: https://www.oracle.com/in/
     startDate: '2022-05-02'
-    summary: Help building IDP SaaS Platform for onbarding fusion applications, microserives over OCI and Kubernetes.
+    endDate: '2024-03-20'
+    summary: Help building cloud native platform for onboarding oracle fusion applications over Oracle cloud infrastructure and kubernetes.
     highlights:
-      - Installing IDP to build layers from the bottom up, starting with IaaS and ending with “Day 2” configurations that we perform on an installed and running platform deployment.
-      - Building platform using Terraform and oracle build service by automation pipelines to automate the installation of internal platform components or services on to Oracle cloud infrastructure and Kubernetes.
-      - Designing the highly scalable platform using Kubernetes on oracle cloud infrastructure, as the primary control component along with custom resources, openapi specifications using sdks, along with cncf graduated tools such as helm charts, cert-manager, linkerd service mesh for mTLS, ingress, argocd ecosystem.
-      - Automated deployments, upgrades and backups of the (ossp) platform using gitlab CI pipelines, sonar, and integrated it with internal secrets vault.
-      - Providing support for Dev teams to troubleshoot failed applications and services in IDP environments.
-      - Created and maintaining virtual machines, including buildpack upgrades using Bash, Python SDK's CLI, Platform CLI.
-      - Installed to forward data and to monitor the platform and application performance using tools prometheus and internal apm tools.
-      - Assisting with system security and vulnerability analyses and risk assessments.
+      - Designing the highly scalable self service opinionated platform on oracle cloud infrastructure, as the primary control plane component using openapi schema specifications for custom resources with other cncf graduated tools.
+      - Building internal platform infrastructure componenets using Temporal Workflows using Go-lang SDK+Terraform modules as management plane on oracle cloud infrastructure as custom controllers creating multiple interconnected resources such as VCNs, Private Endpoints,OKE clusters, Multi Nodegroup support Load Balancers and other data plane components with child resources and workflows.
+      - Setup routing plane components for ingress, load balancers, linkerd service mesh, cert-manager, calico for network policies other data plane components opa, gatekeeper for guard rails on oracle kubernetes engine.
+      - Setup observability pipelines on data plane with open telemetry collector using prometheus, loki, tempo, Grafana for log, metrics and tracing.
+      - Part of geophrically distributed team using scrum framework to build and deploy platform components for monthly cadence releases with code-reviews and automated testing frameworks on YAML schema reference for OCI Pipelines
+      - Providing on-call support for multiple dev teams to onbaord and troubleshooting failed applications and services.
+      - Maintaining playbooks and documentation, housekeeping of platform components kubernetes upgrades, node, certificate rotations using bash scripting, python and go sdks.
 
   - company: British Telecom
     position: Design Specialist
