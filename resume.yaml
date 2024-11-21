@@ -25,7 +25,6 @@ work:
     position: DevOps Architect/ Sr Staff Engineer
     website: https://www.nielsen.com/
     startDate: '2024-09-24'
-    endDate: ''
     summary: Managing cloud native platform for onboarding big data workloads for Multi tenants over AWS cloud.
     highlights:
       - Help teams onboarding to Multi-tenant Platform (Kubernetes as a Service) that runs hierarchical namespace controller for tenant isolation.
