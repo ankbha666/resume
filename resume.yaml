@@ -21,6 +21,18 @@ basics:
       username: ankitbhalla
       url: https://www.linkedin.com/in/ankit-bhalla-70528218
 work:
+  - company: Nielsen Media Research
+    position: DevOps Architect/ Sr Staff Engineer
+    website: https://www.nielsen.com/
+    startDate: '2024-09-24'
+    endDate: 'Present'
+    summary: Managing cloud native platform for onboarding big data workloads for Multi tenants over AWS cloud.
+    highlights:
+      - Help teams onboarding to Multi-tenant Platform (Kubernetes as a Service) that runs hierarchical namespace controller for tenant isolation.
+      - Managing observability pipeline called Manta for tenants onboarding using gitlab pipeline with custom onboarding api for basic scaffolding along with prometheus-stack components and custom controller built for thanos service discovery.
+      - Performing Day 2 operations on platform components like terraform modules upgrades, cluster version upgrades, node patching, certificates rotations for mTLS and maintaining scripts (bash, python, go) for housekeeping.
+      - Ongoing KT sessions for Airflow DAGs, Spark operator running on Kubernetes, Kafka, Trino (Query as a Service) for big data workloads.
+
   - company: Oracle
     position: Principal Member of Technical Staff
     website: https://www.oracle.com/in/
@@ -182,9 +194,10 @@ skills:
     keywords:
       - Kubernetes
       - Docker
+      - Rancher
       - Helm
       - Kustomize
-      - Service Mesh
+      - Service Mesh (Linkerd, Istio)
   - name: Continous Integration
     level: Master
     keywords: 
